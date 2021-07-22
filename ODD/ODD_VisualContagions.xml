@@ -1,0 +1,1582 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_odds.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:s="http://purl.oclc.org/dsdl/schematron"
+   xmlns:sch="http://purl.oclc.org/dsdl/schematron" xml:lang="en">
+   <!-- This ODD is based on the work of Lucie Rondeau du Noyer, Simon Gabay and Matthias Gille Levenson -->
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>VISUAL CONTAGIONS Project</title>
+            <title type="subtitle">Encoding Guidelines</title>
+            <author>Auriane Quoix</author>
+            <author>Caroline Corbières</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>VISUAL CONTAGIONS</authority>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Derived from sources listed <ref
+                  target="https://docs.google.com/spreadsheets/d/1RL9ti8pLTFF9X4kR6K1JbphfVLFxssarHew9mtrlKaA/edit#gid=1979735129"
+                  >here</ref> and from the UNIGE server.</p>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change><!-- Add a new element --></change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div1>
+            <head>Introduction</head>
+            <p>This document presents the encoding specifications for the sources published by the
+               VISUAL CONTAGIONS project. Among these sources, some of the exhibition catalogs, will expand BasArt,
+               the database of an older project, Artl@s.</p>
+            <p>The aim of the VISUAL CONTAGIONS project is to study the global circulation of images
+               from the 1890s to the advent of the Internet. It involves an innovative research on a
+               corpus of images that need to be recovered, described, dated and georeferenced. Then,
+               they will be analysed with the help of artificial vision algorithms, in order to identify the most
+               reproduced images and the patterns that circulated the more between 1890 and 1990.</p>
+            <p>To visualize the circulation of images, VISUAL CONTAGIONS deploys a global IIIF
+               database of images. This portal will group scanned images (which will be stored on
+               UNIGE servers) and external images (accessible through their IIIF manifests). The
+               encoded metadata will mainly be used for the generation of manifests, but it will
+               also, in the case of the exhibition catalogs, expand BasArt.</p>
+            <p>As for Artl@s, it manages several research projects on artistic and cultural
+               globalization. It also takes an active interest in digital methodologies and in
+               the circulation of images.</p>
+            <p>One of its projects is BasArt, an online database of exhibition catalogs from the
+               19th and 20th centuries. To expand the database, Béatrice Joyeux-Prunel decided to find a way
+               to process and structure the scanned exhibition catalogs in order to easily complete the
+               database. They decided to use a pivot XML-TEI format and GROBID-dictionaries (a
+               machine-learning software designed to automatically structure the lexicographical
+               resources and to automatically encode the exhibition catalogs).</p>
+            <div2>
+               <head>Corpus</head>
+               <p>The main corpus of VISUAL CONTAGIONS is made up of five types of printed and
+                  illustrated sources: exhibition catalogs, sales catalogs, periodicals, political
+                  and advertising posters and chapbooks. But these encoding specifications concern
+                  only two types of sources: the exhibition catalogs and the periodicals. The other
+                  sources will be integrated into the project in the future.</p>
+            </div2>
+            <div2>
+               <head>The encoding structure</head>
+               <p>The encoding structure is composed of a <gi>teiHeader</gi> and a <gi>body</gi>.
+                  These two parts are derived from two different steps of the project. The
+                  information relating to the header concerns both periodicals and exhibition
+                  catalogs, while the information relating to the body concerns only exhibition
+                  catalogs.</p>
+               <p>The header is automatically generated, using an XSLT stylesheet, from a CSV
+                  listing the periodicals and exhibition catalogs accessible online. But some
+                  information will need to be added directly to the TEI file. This header has been
+                  thought out to be multipurpose. Here is its general structure:</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <teiHeader>
+                     <fileDesc>
+                        <titleStmt>
+                           <title/>
+                           <editor role="metadata">
+                              <persName/>
+                           </editor>
+                           <editor role="data">
+                              <persName/>
+                           </editor>
+                        </titleStmt>
+                        <publicationStmt>
+                           <publisher>
+                              <name/>
+                              <persName type="director"/>
+                              <orgName/>
+                              <address>
+                                 <addrLine/>
+                                 <postCode/>
+                                 <settlement/>
+                              </address>
+                           </publisher>
+                           <date when="1111"/>
+                           <availability>
+                              <!-- Text License -->
+                              <licence/>
+                              <!-- Images License -->
+                              <licence/>
+                           </availability>
+                        </publicationStmt>
+                        <sourceDesc>
+                           <bibl type="source_type">
+                              <title/>
+                              <author/>
+                              <editor/>
+                              <editor role="director"/>
+                              <publisher/>
+                              <pubPlace/>
+                              <date when="1111"/>
+                              <date type="first_publication_number" when="1111"/>
+                              <date type="last_publication_number" when="1111"/>
+                              <relatedItem>
+                                 <msDesc>
+                                    <msIdentifier>
+                                       <repository/>
+                                    </msIdentifier>
+                                    <additional>
+                                       <surrogates>
+                                          <ref facs="https://exemple.fr"/>
+                                          <name role="digitisation" when="1111-11-11"/>
+                                       </surrogates>
+                                    </additional>
+                                 </msDesc>
+                              </relatedItem>
+                              <extent/>
+                              <note/>
+                           </bibl>
+                           <listEvent>
+                              <event type="event_type" subtype="travelling_or_fixed"
+                                 from="1111-11-11" to="1111-11-11">
+                                 <head/>
+                                 <head type="exhibition_group_type"/>
+                                 <desc>
+                                    <listPlace>
+                                       <place>
+                                          <head/>
+                                          <placeName>
+                                             <orgName type="place_type"/>
+                                             <choice>
+                                                <orig>
+                                                  <address n="address_from_source">
+                                                  <addrLine/>
+                                                  </address>
+                                                </orig>
+                                                <reg>
+                                                  <address n="section_address">
+                                                  <street/>
+                                                  <addrLine n="floor"/>
+                                                  <addrLine n="additional_address"/>
+                                                  <addrLine n="locality"/>
+                                                  <settlement/>
+                                                  <country/>
+                                                  <region/>
+                                                  </address>
+                                                </reg>
+                                             </choice>
+                                          </placeName>
+                                          <note/>
+                                       </place>
+                                       <place><!-- Repeatable tags --></place>
+                                    </listPlace>
+                                 </desc>
+                              </event>
+                           </listEvent>
+                        </sourceDesc>
+                     </fileDesc>
+                     <profileDesc>
+                        <langUsage>
+                           <language ident="language"/>
+                        </langUsage>
+                     </profileDesc>
+                     <encodingDesc>
+                        <!-- It concerns only the exhibition catalogs encoded with GROBID-dictionaries -->
+                        <p/>
+                     </encodingDesc>
+                     <revisionDesc>
+                        <change who="name"/>
+                     </revisionDesc>
+                  </teiHeader>
+               </egXML>
+               <p>The catalog's <gi>body</gi> is derived from the GROBID-dictionaries output.
+                  However, the encoded output does not correspond to our encoding for exhibition
+                  catalogs, so we must transform some tags thanks to a XSLT stylesheet. Then we get an
+                  encoded catalog based on the five levels of GROBID-dictionaries which are the
+                  following ones: </p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <body>
+                     <entry>
+                        <desc>
+                           <name/>
+                           <trait/>
+                        </desc>
+                        <item>
+                           <num/>
+                           <title/>
+                           <desc/>
+                        </item>
+                     </entry>
+                  </body>
+               </egXML>
+               <p>In order to refine the encoding, we decided to add tags to specify biographical
+                  and descriptive information about the exhibited work that could be
+                  added in a second time, by hand or thanks to a script.</p>
+               <p>Concerning the periodicals, we decided to leave an empty <gi>body</gi> for the moment,
+                  because we only want to encode metadata.</p>
+            </div2>
+         </div1>
+         <div1>
+            <head>Encoding structure presentation</head>
+            <div2>
+               <head>The TEI Header structure (<gi>teiHeader</gi>)</head>
+               <p>This <gi>teiHeader</gi> was built to fulfill several objectives related to the
+                  VISUAL CONTAGIONS project. It had to contain the necessary information to generate
+                  IIIF manifests and also the necessary information for BasArt, the database of the
+                  Artl@s project (some exhibition catalogs will expand the database). Moreover, this
+                     <gi>teiHeader</gi> had to be adapted to encode the different types of sources
+                  chosen for the project (exhibition catalogs and periodicals for the moment).</p>
+               <p>This <gi>teiHeader</gi> is composed of three main sections: <specList>
+                     <specDesc key="fileDesc"/>
+                     <specDesc key="profileDesc"/>
+                     <specDesc key="revisionDesc"/>
+                  </specList></p>
+               <div3>
+                  <head>The File Description (<gi>fileDesc</gi>)</head>
+                  <p>The <gi>fileDesc</gi> constitutes the main part of this <gi>teiHeader</gi>. It
+                     contains the bibliographic description of the electronic version of the
+                     exhibition catalog or periodical. It gives information about the present
+                     document as well as about its source (paper and digitised version).</p>
+                  <p>It contains itself three sections: <specList>
+                        <specDesc key="titleStmt"/>
+                        <specDesc key="publicationStmt"/>
+                        <specDesc key="sourceDesc"/>
+                     </specList></p>
+                  <div4>
+                     <head>The Title Statement (<gi>titleStmt</gi>)</head>
+                     <p>The <gi>titleStmt</gi> is the first of the three mandatory elements of the
+                           <gi>fileDesc</gi>. It contains the title of the electronic version of the
+                        document (exhibition catalog or periodical, for now) and the name of the
+                        person(s) in charge of its content.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <titleStmt>
+                           <title>La Chine à l'Exposition internationale des arts décoratifs et
+                              industriels modernes à Paris. Catalogue des œuvres d'art décoratif
+                              artistique et industrielles modernes exposées dans la section
+                              chinoise.</title>
+                           <editor role="metadata">
+                              <persName>Auriane Quoix</persName>
+                           </editor>
+                           <editor role="data">
+                              <persName>Caroline Corbières</persName>
+                           </editor>
+                        </titleStmt>
+                     </egXML>
+                     <p>We have decided to name the electronic version of the document in the same
+                        way as the original version, for the sake of clarity and in order to make
+                        the work on the TEI file easier for the team. The file naming (used by the
+                        system) appears, as for it, as an attribute of the <gi>TEI</gi> element, in
+                        the following way: </p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <TEI
+                           xml:id="exhibCat_1925_Paris_ChineExpositionInternationaleArtsDecoratifs"
+                        />
+                     </egXML>
+                     <p>The <gi>editor</gi> element which has a <att>role</att>="metadata" attribute
+                        contains the name of the person who collected the metadata of the document.
+                        On the other hand, the element which has a <att>role</att>="data" attribute
+                        mentions the person who encoded the part of the TEI document contained in
+                        the <gi>text</gi> element.</p>
+                  </div4>
+                  <div4>
+                     <head>The Publication Statement (<gi>publicationStmt</gi>)</head>
+                     <p>The <gi>publicationStmt</gi> is the second mandatory element of the
+                           <gi>fileDesc</gi>. It groups informations about the publication of the
+                        electronic version of the document.</p>
+                     <p>The <gi>publisher</gi> element provides details about the organisation
+                        responsible for the publication of the text. At this place, there are the
+                        project name, its director and the organisation name and address which it is
+                        attached to.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <publisher>
+                           <name>VISUAL CONTAGIONS</name>
+                           <persName type="director">Béatrice Joyeux-Prunel</persName>
+                           <orgName>UNIGE</orgName>
+                           <address>
+                              <addrLine>Rue des Battoirs 7</addrLine>
+                              <postCode>1205</postCode>
+                              <settlement>Genève</settlement>
+                           </address>
+                        </publisher>
+                     </egXML>
+                     <p>The publication date as well as the license information are also indicated
+                        in the <gi>publicationStmt</gi>.</p>
+                     <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                        <date when="2020"/>
+                        <availability>
+                           <!-- Text License -->
+                           <licence target="https://creativecommons.org/licenses/by/4.0/"
+                              >CC-BY</licence>
+                           <!-- Images License -->
+                           <licence
+                              target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+                           />
+                        </availability>
+                     </egXML>
+                  </div4>
+                  <div4>
+                     <head>The Source Description (<gi>sourceDesc</gi>)</head>
+                     <p>The <gi>sourceDesc</gi> contains the description of the source of the
+                        electronic document, and for the exhibition catalogs, it contains
+                        information about the event associated with the source. It contains two main
+                        sections: <specList>
+                           <specDesc key="bibl"/>
+                           <specDesc key="listEvent"/>
+                        </specList></p>
+                     <div5>
+                        <head>The Bibliographic Citation (<gi>bibl</gi>)</head>
+                        <p>The <gi>bibl</gi> contains the bibliographic description of the physical
+                           document.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <title>La Chine à l'Exposition internationale des arts décoratifs et
+                              industriels modernes à Paris. Catalogue des œuvres d'art décoratif
+                              artistique et industrielles modernes exposées dans la section
+                              chinoise.</title>
+                           <author/>
+                           <editor>Exposition internationale (1925 ; Paris)</editor>
+                           <editor role="director"/>
+                           <publisher/>
+                           <pubPlace>Paris</pubPlace>
+                           <date when="1925">1925</date>
+                           <date type="first_publication_number"/>
+                           <date type="last_publication_number"/>
+                        </egXML>
+                        <p>It also specifies its physical description.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <extent>1 vol. (40 p.) ; 25 cm</extent>
+                        </egXML>
+                        <p>A <att>type</att> attribute placed on the <gi>bibl</gi> element indicates
+                           the type of the document.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <bibl type="exhibition_catalog"/>
+                        </egXML>
+                        <p>We decided to use a <gi>relatedItem</gi> element, to differentiate the physical location of the document (repository) and
+                           the information about its digital version (URL and author of the
+                           digitisation).</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <relatedItem>
+                              <msDesc>
+                                 <msIdentifier>
+                                    <!-- Location of the source -->
+                                    <repository>Bibliothèque nationale de France</repository>
+                                 </msIdentifier>
+                                 <additional>
+                                    <surrogates>
+                                       <!-- Link to its digitised version -->
+                                       <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k317898c"/>
+                                       <name role="digitisation">Bibliothèque nationale de
+                                          France</name>
+                                    </surrogates>
+                                 </additional>
+                              </msDesc>
+                           </relatedItem>
+                        </egXML>
+                     </div5>
+                     <div5>
+                        <head>The List of Events (<gi>listEvent</gi>)</head>
+                        <p>The exhibition is described within an <gi>event</gi> tag, itself
+                           contained in a <gi>listEvent</gi> tag. The type of event, as well as if
+                           the exhibition is a travelling one or not and the dates of the event are
+                           indicated in attributes placed on the <gi>event</gi> element. These pieces of
+                           information are necessary for the BasArt database (Artl@s project).</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <event type="exhibition" subtype="fixed" from="1925-04-28"
+                              to="1925-11-30"/>
+                        </egXML>
+                        <p>Then there are two <gi>head</gi> elements. In the first one, we indicate
+                           the title of the exhibition and the second one, concerns the exhibition
+                           group title (when it exists). A type attribute placed on the second
+                              <gi>head</gi> specifies the type of the exhibition.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <head>La Chine à l'exposition internationale des arts décoratifs et
+                              industriels modernes à Paris</head>
+                           <head type="artists_group"/>
+                        </egXML>
+                        <p>The addresses list of the exhibition is specified in a <gi>desc</gi>
+                           element. We separated the address indicated in the printout and its
+                           standardized version in
+                              <gi>choice</gi><gi>orig</gi><gi>reg</gi><gi>choice</gi> elements.
+                           In some cases, there may be more than one address per section.</p>
+                        <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                           <desc>
+                              <!-- List of places -->
+                              <listPlace>
+                                 <!-- Repeatable chaining of tags (if there are several sections (= addresses) for the same exhibition catalog) -->
+                                 <place>
+                                    <head>Section de Chine</head>
+                                    <placeName>
+                                       <orgName type="room">Grand Palais</orgName>
+                                       <!-- Two addresses are encoded: the first one is indicated in the printout and the second one
+                                          corresponds to its standardized version -->
+                                       <choice>
+                                          <orig>
+                                             <address n="address_from_source">
+                                                <addrLine>Au Grand Palais - 1er étage, à gauche de
+                                                  la salle des Congrès</addrLine>
+                                             </address>
+                                          </orig>
+                                          <reg>
+                                             <address n="section_address">
+                                                <street>3, avenue du Général Eisenhower</street>
+                                                <addrLine n="floor">1er étage</addrLine>
+                                                <addrLine n="additional_address">à gauche de la
+                                                  salle des Congrès</addrLine>
+                                                <addrLine n="locality"/>
+                                                <settlement>Paris</settlement>
+                                                <country>France</country>
+                                                <region/>
+                                             </address>
+                                          </reg>
+                                       </choice>
+                                    </placeName>
+                                    <note>La Galerie de Chine se trouve au premier étage du Grand
+                                       Palais, à gauche de la Salle du Congrès, et près des Galeries
+                                       de la Manufacture des Gobelins et de la Section Russe. Elle
+                                       est composée de huit stands et de deux vestibules. La porte
+                                       d'honneur se trouve du côté de la Section Russe et représente
+                                       une décoration de chimères chinoises évoluées.</note>
+                                 </place>
+                                 <place>
+                                    <!-- Repeatable tags -->
+                                 </place>
+                              </listPlace>
+                           </desc>
+                        </egXML>
+                     </div5>
+                  </div4>
+               </div3>
+               <div3>
+                  <head>The Profile Description (<gi>profileDesc</gi>)</head>
+                  <p>This <gi>profileDesc</gi> specifies the language of the text. The ISO 639-1
+                     standard is used and mentioned in the <att>ident</att> attribute of the
+                        <gi>language</gi> element.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <profileDesc>
+                        <langUsage>
+                           <language ident="fr"/>
+                        </langUsage>
+                     </profileDesc>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>The Encoding Description (<gi>encodingDesc</gi>)</head>
+                  <p>The <gi>encodingDesc</gi> specifies the applications we used in our workflow to
+                     encode catalogs. It has two elements: <list>
+                        <item>The <gi>samplingDecl</gi> (with a child element <gi>p</gi>) indicates
+                           the choice we made to process only the parts of the catalogs that are lists
+                           of entries. This precision is added automatically thanks to the XSLT
+                           stylesheet.</item>
+                        <item>The <gi>appInfo</gi> (with a child element <gi>application</gi>)
+                           specifies the applications we used in our worflow. We automatically added
+                           information concerning Transkribus and GROBID-dictionaries thanks to the
+                           XSLT stylesheet.</item>
+                     </list>
+                  </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <encodingDesc>
+                        <samplingDecl>
+                           <p>This electronic version of the catalog only reproduces the entries
+                              that correspond to exhibited works. All the text preceding or succeeding
+                              the list of documents is not reproduced below.</p>
+                        </samplingDecl>
+                        <appInfo>
+                           <application version="1.11" ident="Transkribus" when="2020">
+                              <label>Transkribus</label>
+                              <ptr target="https://transkribus.eu/Transkribus/"/>
+                           </application>
+                           <application version="0.5.4" ident="GROBID" when="2020">
+                              <label>GROBID_Dictionaries - A machine learning software for
+                                 structuring digitized dictionaries</label>
+                              <ptr target="https://github.com/MedKhem/grobid-dictionaries"/>
+                           </application>
+                        </appInfo>
+                     </encodingDesc>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>The Revision Description (<gi>revisionDesc</gi>)</head>
+                  <p>In this tag are indicated the modifications made to the file, as well as their
+                     author.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <revisionDesc>
+                        <!-- Review of the revision history for a file -->
+                        <change who="Auriane_Quoix">New place and address added.</change>
+                     </revisionDesc>
+                  </egXML>
+               </div3>
+            </div2>
+            <div2>
+               <head>The Text Structure of exhibition catalogs (<gi>text</gi>)</head>
+               <p>The <gi>body</gi> of exhibition catalogs is composed of several <gi>entry</gi>
+                  recording exhibited works and some information about the exhibitor.</p>
+               <p>Sometimes, entries can be grouped by <gi>list</gi>, which indicate the name of a
+                  section such as the location of the work in the exhibition (gallery 1, red wing…),
+                  or artistic forms (paintings, sculpture, architecture…). We have to encode lists
+                  by hand because GROBID-dictionaries is not able to do it.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <list n="2">
+                     <head>Dessins.</head>
+                     <entry n="1"/>
+                     <entry n="2"/>
+                  </list>
+               </egXML>
+               <p>Each <gi>entry</gi> contains four sections: <specList>
+                     <specDesc key="num"/>
+                     <specDesc key="desc"/>
+                     <specDesc key="item"/>
+                     <specDesc key="note"/>
+                  </specList></p>
+               <div3>
+                  <head>The num section (<gi>num</gi>)</head>
+                  <p>The <gi>num</gi> is an optional tag to encode the number of the entry when it
+                     is not attached to the work but to the entry in general. It is the case in some
+                     catalogs which present lots or stands.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <entry n="2">
+                        <num>N° 2</num>
+                        <desc>
+                           <name role="exhibitor">LI (SHING-WA &amp; C°)</name>
+                        </desc>
+                        <item>
+                           <desc>Dentelles</desc>
+                        </item>
+                     </entry>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>The desc section (<gi>desc</gi>)</head>
+                  <p>The <gi>desc</gi> gives information about the exhibitor. It can have two child
+                     elements: <list>
+                        <item>The mandatory element <gi>name</gi> indicates the name of the
+                           exhibitor. It has a <att>role</att>="exhibitor" attribute to specify the
+                           role of the person or organisation named in the entry. In a second time,
+                           we could refine the encoding by adding <gi>surname</gi> and
+                              <gi>forename</gi> tags.</item>
+                        <item>The non-mandatory element <gi>trait</gi> (with a child element
+                              <gi>p</gi>) indicates biographical information about the exhibitor.
+                           In a second time, we could refined the encoding by adding <gi>birth</gi>,
+                              <gi>occupation</gi>, <gi>residence</gi>, <gi>education</gi>,
+                              <gi>death</gi>, <gi>affiliation</gi>, <gi>nationality</gi> and/or
+                              <gi>event</gi> tags.</item>
+                     </list>
+                  </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <desc>
+                        <name role="exhibitor">
+                           <surname>ADELINE</surname> (<forename>Jules</forename>)</name>
+                        <trait>
+                           <p><birth>Né à Rouen</birth>. Médaille de bronze, Caen, 1873.
+                                 <residence>Rue Eau-de-Robec, 36, Rouen</residence></p>
+                        </trait>
+                     </desc>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>The item section (<gi>item</gi>)</head>
+                  <p>The <gi>item</gi> gives information about the exhibited work. An
+                        <gi>entry</gi> could contain several items. Each item has a <att>n</att>
+                     attribute referring to the <gi>num</gi> element. It can have three child
+                     elements: <list>
+                        <item>The non-mandatory element <gi>num</gi> indicates the number of the
+                           work.</item>
+                        <item>The non-mandatory element <gi>title</gi> indicates the title of the
+                           work.</item>
+                        <item>The non-mandatory element <gi>desc</gi> indicates descriptive
+                           information about the work. In a second time, we could refine the
+                           encoding by adding <gi>material</gi>, <gi>dimensions</gi>, <gi>date</gi>,
+                              <gi>history</gi>, <gi>org</gi> (place), <gi>measure</gi> (price),
+                              <gi>event</gi>, <gi>note</gi>, <gi>quote</gi> and/or
+                              <gi>signatures</gi> tags.</item>
+                     </list>
+                  </p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <item n="23">
+                        <num>23</num>
+                        <title>Pássaro cego</title>
+                        <desc>
+                           <date>1950</date>
+                           <material>gouache</material>
+                           <dimensions>
+                              <dim>76,5x68,5</dim>
+                           </dimensions>
+                           <org>
+                              <orgName>Museum of Modern Art<pc>,</pc></orgName>
+                              <settlement type="city">New York</settlement>
+                           </org>
+                        </desc>
+                     </item>
+                  </egXML>
+               </div3>
+               <div3>
+                  <head>The note section (<gi>note</gi>)</head>
+                  <p>The <gi>note</gi> is an optional tag to encode general notes about the
+                     entry.</p>
+                  <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                     <entry>
+                        <desc>
+                           <name role="exhibitor">
+                              <surname>ADELINE</surname> (<forename>Jules</forename>), </name>
+                           <trait>
+                              <p><birth>Né à Rouen</birth>. Médaille de bronze, Caen, 1873.
+                                    <residence>Rue Eau-de-Robec, 36, Rouen</residence>.</p>
+                           </trait>
+                        </desc>
+                        <item n="635">
+                           <num>635</num>
+                           <title>La porte du Bac à Rouen</title>
+                        </item>
+                        <note>(Voir à la Gravure et à l'Architecture.)</note>
+                     </entry>
+                  </egXML>
+               </div3>
+            </div2>
+            <div2>
+               <head>The Text Structure of periodicals (<gi>text</gi>)</head>
+               <p>The <gi>body</gi> of periodicals is not encoded, it only contains an empty
+                     <gi>p</gi> tag to validate the XML-TEI structure.</p>
+               <egXML xmlns="http://www.tei-c.org/ns/Examples">
+                  <text>
+                     <body>
+                        <p/>
+                     </body>
+                  </text>
+               </egXML>
+            </div2>
+         </div1>
+         <div1>
+            <head>Encoding specifications</head>
+            <schemaSpec ident="oddbyexample" start="TEI ">
+               <moduleRef key="tei"/>
+               <!--Checking module textcrit-->
+               <classRef key="att.textCritical"/>
+               <classRef key="model.rdgLike"/>
+               <classRef key="model.rdgPart"/>
+               <classSpec ident="att.textCritical" type="atts" mode="delete"> </classSpec>
+               <!--Checking module msdescription-->
+               <classRef key="model.physDescPart"/>
+               <moduleRef key="msdescription"
+                  include="msDesc dimensions material signatures msIdentifier repository history additional surrogates"/>
+               <elementSpec ident="msDesc" mode="change">
+                  <!-- add a mandatory sequence of tags for the <msDesc> element -->
+                  <content>
+                     <sequence preserveOrder="true">
+                        <elementRef key="msIdentifier"/>
+                        <elementRef key="additional"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="dimensions" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="material" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="signatures" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="msIdentifier" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="repository" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="history" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="additional" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surrogates" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module namesdates-->
+               <classRef key="model.persNamePart"/>
+               <moduleRef key="namesdates"
+                  include="orgName persName surname forename placeName country region settlement affiliation birth death education event listEvent listPlace nationality occupation org place residence trait"/>
+               <elementSpec ident="orgName" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <!-- add a @type attribute and creation of a closed list of attributes for the <orgName> element -->
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="gallery"/>
+                           <valItem ident="club"/>
+                           <valItem ident="office"/>
+                           <valItem ident="bookshop"/>
+                           <valItem ident="room"/>
+                           <valItem ident="museum"/>
+                           <valItem ident="other_type"/>
+                           <valItem ident="cultural_center"/>
+                           <valItem ident="NR"/>
+                           <valItem ident="?"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="persName" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <!-- add a @type attribute and creation of a closed list of attributes for the <type> element -->
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="director"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="surname" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="forename" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="placeName" mode="change">
+                  <!-- add a mandatory sequence of tags for the <placeName> element -->
+                  <content>
+                     <sequence preserveOrder="true">
+                        <elementRef key="orgName"/>
+                        <elementRef key="choice"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="country" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="region" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="settlement" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="affiliation" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="birth" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="death" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="education" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="event" mode="change">
+                  <attList>
+                     <attDef ident="where" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <!-- add a @type attribute and creation of a closed list of attributes for the <event> element -->
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="exhibition"/>
+                        </valList>
+                     </attDef>
+                     <!-- add a @subtype attribute and creation of a closed list of attributes for the <event> element -->
+                     <attDef ident="subtype" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="fixed"/>
+                           <valItem ident="travelling"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="role" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listEvent" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listPlace" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="nationality" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="occupation" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="scheme" mode="delete"/>
+                     <attDef ident="code" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="org" mode="change">
+                  <attList>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="place" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="residence" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="trait" mode="change">
+                  <content>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <textNode/>
+                        <classRef key="model.personPart"/>
+                        <elementRef key="p"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module dictionaries-->
+               <classRef key="att.lexicographic"/>
+               <classRef key="model.entryLike"/>
+               <classRef key="model.formPart"/>
+               <classRef key="model.gramPart"/>
+               <classRef key="model.lexicalRefinement"/>
+               <classRef key="model.morphLike"/>
+               <classRef key="model.ptrLike.form"/>
+               <moduleRef key="dictionaries" include="entry"/>
+               <elementSpec ident="entry" mode="change">
+                  <content>
+                     <elementRef key="desc"/>
+                     <elementRef key="item"/>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <elementRef key="num"/>
+                        <elementRef key="item"/>
+                        <elementRef key="note"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <classSpec ident="att.lexicographic" type="atts" mode="delete"/>
+               <!--Checking module tagdocs-->
+               <classRef key="att.combinable"/>
+               <classRef key="att.identified"/>
+               <classRef key="model.contentPart"/>
+               <classSpec ident="att.combinable" type="atts" mode="delete"/>
+               <classSpec ident="att.identified" type="atts" mode="delete"/>
+               <classSpec ident="att.ascribed.directed" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="toWhom" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.dimensions" type="atts" mode="delete"/>
+               <classSpec ident="att.damaged" type="atts" mode="delete"/>
+               <classSpec ident="att.datable.w3c" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="notAfter" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.datable" type="atts" mode="change"/>
+
+               <classSpec ident="att.divLike" type="atts" mode="delete"> </classSpec>
+               <classSpec ident="att.media" type="atts" mode="delete"> </classSpec>
+               <classSpec ident="att.naming" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="nymRef" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="targetLang" mode="delete"/>
+                     <attDef ident="evaluate" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.pointing.group" type="atts" mode="delete"> </classSpec>
+               <classSpec ident="att.segLike" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="function" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <classSpec ident="att.timed" type="atts" mode="delete"> </classSpec>
+               <classSpec ident="att.transcriptional" type="atts" mode="delete"> </classSpec>
+               <classSpec ident="att.personal" type="atts" mode="change">
+                  <attList>
+                     <attDef ident="full" mode="delete"/>
+                     <attDef ident="sort" mode="delete"/>
+                  </attList>
+               </classSpec>
+               <!--Checking module core-->
+               <moduleRef key="core"
+                  include="p quote desc choice reg orig name address addrLine street postCode num measure date ptr ref list item label head note author editor title publisher pubPlace bibl relatedItem"/>
+               <elementSpec ident="p" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="quote" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="desc" mode="change">
+                  <content>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <textNode/>
+                        <elementRef key="listPlace"/>
+                        <elementRef key="name"/>
+                        <elementRef key="trait"/>
+                        <elementRef key="material"/>
+                        <elementRef key="dimensions"/>
+                        <elementRef key="date"/>
+                        <elementRef key="history"/>
+                        <elementRef key="org"/>
+                        <elementRef key="measure"/>
+                        <elementRef key="event"/>
+                        <elementRef key="note"/>
+                        <elementRef key="quote"/>
+                        <elementRef key="signatures"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="choice" mode="change">
+                  <!-- add a mandatory sequence of tags for the <choice> element -->
+                  <content>
+                     <sequence preserveOrder="true">
+                        <elementRef key="orig"/>
+                        <elementRef key="reg"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="reg" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="orig" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="name" mode="change">
+                  <attList>
+                     <attDef ident="when" mode="change"/>
+                     <!-- add a @role attribute and creation of a closed list of attributes for the <name> element -->
+                     <attDef ident="role" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="exhibitor"/>
+                           <valItem ident="digitisation"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="address" mode="change">
+                  <attList>
+                     <!-- add a @n attribute and creation of a closed list of attributes for the <address> element -->
+                     <attDef ident="n" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="address_from_source"/>
+                           <valItem ident="section_address"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="addrLine" mode="change">
+                  <attList>
+                     <!-- add a @n attribute and creation of a closed list of attributes for the <addrLine> element -->
+                     <attDef ident="n" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="floor"/>
+                           <valItem ident="additional_address"/>
+                           <valItem ident="locality"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="street" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="postCode" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="num" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="value" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="measure" mode="change">
+                  <attList>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="date" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="first_publication_number"/>
+                           <valItem ident="last_publication_number"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ptr" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="ref" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="list" mode="change">
+                  <content>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <textNode/>
+                        <elementRef key="head"/>
+                        <elementRef key="entry"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <!-- add a @n attribute and creation of a schematron rule concerning the numerotation of the <entry> element -->
+                     <attDef ident="n" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.count"/>
+                        </datatype>
+                        <constraintSpec ident="entryNumber" scheme="schematron">
+                           <constraint>
+                              <s:rule context="tei:entry[@n]">
+                                 <s:assert
+                                    test="number(@n) = number(preceding-sibling::tei:entry[1]/@n) + 1 or count(preceding-sibling::tei:entry[1]/@n) = 0"
+                                    > value of @n is wrong </s:assert>
+                              </s:rule>
+                           </constraint>
+                        </constraintSpec>
+                     </attDef>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="item" mode="change">
+                  <attList>
+                     <!-- add a @n attribute and creation of a schematron rule concerning the numerotation of the <item> element -->
+                     <attDef ident="n" mode="change">
+                        <datatype>
+                           <dataRef key="teidata.count"/>
+                        </datatype>
+                        <constraintSpec ident="itemNumber" scheme="schematron">
+                           <constraint>
+                              <s:rule context="tei:item[@n]">
+                                 <s:assert
+                                    test="number(@n) = number(preceding-sibling::tei:item[1]/@n) + 1 or count(preceding-sibling::tei:item[1]/@n) = 0"
+                                    > value of @n is wrong </s:assert>
+                              </s:rule>
+                           </constraint>
+                        </constraintSpec>
+                     </attDef>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="label" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="head" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <!-- add a @type attribute and creation of a closed list of attributes for the <head> element -->
+                     <attDef ident="type" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="simple_exhibition"/>
+                           <valItem ident="salon"/>
+                           <valItem ident="artists_group"/>
+                           <valItem ident="universal_exhibition"/>
+                           <valItem ident="women_artists_exhibition"/>
+                           <valItem ident="biennial_triennial_documenta"/>
+                           <valItem ident="other"/>
+                           <valItem ident="secession"/>
+                           <valItem ident="society"/>
+                           <valItem ident="festival"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="note" mode="change">
+                  <attList>
+                     <attDef ident="anchored" mode="delete"/>
+                     <attDef ident="targetEnd" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="author" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="editor" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="metadata"/>
+                           <valItem ident="data"/>
+                           <valItem ident="director"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="title" mode="change">
+                  <attList>
+                     <attDef ident="level" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publisher" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="pubPlace" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="role" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="bibl" mode="change">
+                  <content>
+                     <alternate minOccurs="0" maxOccurs="unbounded">
+                        <elementRef key="title"/>
+                        <elementRef key="author"/>
+                        <elementRef key="editor"/>
+                        <elementRef key="publisher"/>
+                        <elementRef key="pubPlace"/>
+                        <elementRef key="date"/>
+                        <elementRef key="relatedItem"/>
+                        <elementRef key="extent"/>
+                        <elementRef key="note"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <!-- add a mandatory @type attribute and creation of a closed list of attributes for the <bibl> element -->
+                     <attDef ident="type" mode="change" usage="req">
+                        <valList mode="add" type="closed">
+                           <valItem ident="exhibition_catalog"/>
+                           <valItem ident="periodical"/>
+                        </valList>
+                     </attDef>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="relatedItem" mode="change">
+                  <attList>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module figures-->
+               <!--Checking module header-->
+               <moduleRef key="header"
+                  include="teiHeader fileDesc titleStmt extent publicationStmt authority availability licence sourceDesc encodingDesc samplingDecl appInfo application profileDesc langUsage language revisionDesc change"/>
+               <elementSpec ident="teiHeader" mode="change">
+                  <content>
+                     <sequence preserveOrder="true">
+                        <elementRef key="fileDesc"/>
+                        <elementRef key="profileDesc"/>
+                        <elementRef key="encodingDesc"/>
+                        <elementRef key="revisionDesc"/>
+                     </sequence>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="fileDesc" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="titleStmt" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="extent" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="publicationStmt" mode="change">
+                  <content>
+                     <alternate minOccurs="1" maxOccurs="unbounded">
+                        <elementRef key="publisher"/>
+                        <elementRef key="date"/>
+                        <elementRef key="availability"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="availability" mode="change">
+                  <attList>
+                     <attDef ident="status" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="licence" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="sourceDesc" mode="change">
+                  <content>
+                     <alternate minOccurs="1" maxOccurs="unbounded">
+                        <elementRef key="bibl"/>
+                        <elementRef key="listEvent"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="encodingDesc" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="samplingDecl" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="default" mode="change">
+                        <valList mode="add" type="closed">
+                           <valItem ident="false"/>
+                        </valList>
+                     </attDef>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="prefixDef" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="listPrefixDef" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="appInfo" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="application" mode="change">
+                  <attList>
+                     <attDef ident="corresp" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="resp" mode="delete"/>
+                     <attDef ident="source" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="notBefore" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="profileDesc" mode="change">
+                  <content>
+                     <alternate minOccurs="1" maxOccurs="unbounded">
+                        <textNode/>
+                        <elementRef key="langUsage"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="langUsage" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="language" mode="change">
+                  <!-- add a mandatory @ident attribute for the <language> element -->
+                  <attList>
+                     <attDef ident="ident" mode="change" usage="req"/>
+                     <attDef ident="usage" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="revisionDesc" mode="change">
+                  <content>
+                     <alternate minOccurs="1" maxOccurs="unbounded">
+                        <textNode/>
+                        <elementRef key="change"/>
+                     </alternate>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="change" mode="change">
+                  <!-- add a mandatory @who attribute for the <change> element -->
+                  <attList>
+                     <attDef ident="who" mode="change" usage="req"/>
+                     <attDef ident="target" mode="delete"/>
+                     <attDef ident="when" mode="delete"/>
+                     <attDef ident="from" mode="delete"/>
+                     <attDef ident="to" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <!--Checking module gaiji-->
+               <!--Checking module verse-->
+               <!--Checking module transcr-->
+               <classRef key="att.global.facs"/>
+               <!--Checking module linking-->
+               <!--Checking module analysis-->
+               <!--Checking module textstructure-->
+               <moduleRef key="textstructure" include="TEI text body"/>
+               <elementSpec ident="TEI" mode="change">
+                  <attList>
+                     <attDef ident="version" mode="delete"/>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="text" mode="change">
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                     <attDef ident="type" mode="delete"/>
+                     <attDef ident="subtype" mode="delete"/>
+                  </attList>
+               </elementSpec>
+               <elementSpec ident="body" mode="change">
+                  <content>
+                     <elementRef key="list"/>
+                  </content>
+                  <attList>
+                     <attDef ident="facs" mode="delete"/>
+                  </attList>
+               </elementSpec>
+            </schemaSpec>
+         </div1>
+      </body>
+   </text>
+</TEI>
