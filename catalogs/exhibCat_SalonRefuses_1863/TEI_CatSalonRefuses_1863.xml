@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="tests/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="tests/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="../../ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CatSalonRefuses_1863">
                             <teiHeader>
                                                   <fileDesc>
@@ -25,64 +25,47 @@
                                                   <licence
                                                   target="https://creativecommons.org/licenses/by/4.0/"
                                                   >CC-BY</licence>
-                                                  <licence
-                                                  target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
-                                                  />
+                                                  
                                                   </availability>
                                                   </publicationStmt>
                                                   <sourceDesc>
-                                                  <bibl type="exhibition_catalog">
-                                                  <title>Société des artistes refusés. Catalogue des
-                                                  oeuvres exposés.</title>
-                                                  <author>Salons des artistes refusés</author>
-                                                  <publisher>Société des refusés </publisher>
-                                                  <pubPlace>Paris</pubPlace>
-                                                  <date>1863</date>
-                                                  </bibl>
-                                                  <!--<relatedItem>
-                                                        <msIdentifier>
-                                                                                    <repository>Bibliothèque Nationale de France</repository>
-                                                        </msIdentifier>
-                                                        <additional>
-                                                                                    <surrogates>
-                                                                                                                <ref facs="https://gallica.bnf.fr/ark:/12148/bpt6k114147v"/>
-                                                                                                                <name role="digitisation">Bibliothèque Nationale de France</name>
-                                                                                    </surrogates>
-                                                        </additional>
-                                                  </relatedItem>
-                                                  <extent>1 vol. (68p.) </extent>
-                                                                              <note/>
-                                                  </bibl>
-                                                  <listEvent>
-                                                                              <event type="exhibition" subtype="fixed" from="1863-05-15" to="1863-05-15">
-                                                                                                          <head>1ère exposition par décision de S.M. l'Empereur au salon annexe, palais des Champs-Elysées, le 15 mai 1863.</head>
-                                                                                                          <head type="salon">Salon des refusés</head>
-                                                                                                          <desc>
-                                                                                                                                      <listPlace>
-                                                                                                                                                                  <place>
-                                                                                                                                                                                              <head/>
-                                                                                                                                                                                              <placeName>
-                                                                                                                                                                                                                          <orgName type="room">Palais de la ville de Paris</orgName>
-                                                                                                                                                                                                                          <choice>
-                                                                                                                                                                                                                                                      <orig>
-                                                                                                                                                                                                                                                                                  <address n="address_from_source">
-                                                                                                                                                                                                                                                                                                              <addrLine>Pavillon de la ville de Paris (Champs-Elysées)</addrLine>
-                                                                                                                                                                                                                                                                                  </address>
-                                                                                                                                                                                                                                                      </orig>
-                                                                                                                                                                                                                                                      <reg>
-                                                                                                                                                                                                                                                                                  <address n="section_address">
-                                                                                                                                                                                                                                                                                                              <street/>
-                                                                                                                                                                                                                                                                                                              <addrLine n="floor"/>
-                                                                                                                                                                                                                                                                                                              <addrLine n="additional_address"/>
-                                                                                                                                                                                                                                                                                                              <addrLine n="locality"/>
-                                                                                                                                                                                                                                                                                                              <settlement>Paris</settlement>
-                                                                                                                                                                                                                                                                                                              <country>France</country>
-                                                                                                                                                                                                                                                                                                              <region/>
-                                                                                                                                                                                                                                                                                  </address>
-                                                                                                                                                                                                                                                      </reg>
-                                                                                                                                                                                                                          </choice>
-                                                                              </event>
-                                                  </listEvent>-->
+                                                        <bibl type="exhibition_catalog">
+                                                              <title>Catalogue du Salon des Artistes Refusés</title>
+                                                              <author>Salon des Refusés</author>
+                                                              <publisher/>
+                                                              <pubPlace>Paris</pubPlace>
+                                                              <date>1863</date>
+                                                              <relatedItem>
+                                                                    <msDesc>
+                                                                          <msIdentifier>
+                                                                                <repository>Bibliothèque nationale de
+                                                                                      France</repository>
+                                                                          </msIdentifier>
+                                                                          <additional>
+                                                                                <surrogates><ref
+                                                                                      facs="https://gallica.bnf.fr/ark:/12148/bpt6k114147v"
+                                                                                /><name role="digitisation">Bibliothèque nationale
+                                                                                      de France</name></surrogates>
+                                                                          </additional>
+                                                                    </msDesc>
+                                                                    
+                                                              </relatedItem>
+                                                              <extent>77 p.</extent>
+                                                        </bibl>
+                                                        <listEvent>
+                                                              <event type="exhibition" subtype="fixed"
+                                                                    from="1863-05-15" to="1863-06-30">
+                                                                    <head>Premier salon des refusés</head>
+                                                                    <head type="salon">Salon des refusés</head>
+                                                                    <desc>
+                                                                          <listPlace>
+                                                                                <place>
+                                                                                      <label>Palais des Champs-Elysées, annexe du palais de l'Industrie</label>
+                                                                                </place>
+                                                                          </listPlace>
+                                                                    </desc>
+                                                              </event>
+                                                        </listEvent>
                                                   </sourceDesc>
                                                   </fileDesc>
                                                   <profileDesc>
@@ -97,9 +80,12 @@
                                                   works. All text preceding or succeeding the list
                                                   of documents is not reproduced below.</p>
                                                   </samplingDecl>
-                                                  <!--<appInfo>
-                                                  <application/>
-                                                  </appInfo>-->
+                                                  <appInfo>
+                                                  <application version="3.0" ident="kraken" when="2021">
+                                                        <label>kraken</label>
+                                                        <ptr target="https://github.com/mittagessen/kraken"/>
+                                                  </application>
+                                                  </appInfo>
                                                   </encodingDesc>
                                                   <revisionDesc/>
                             </teiHeader>
