@@ -1,0 +1,1426 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-model href="tests/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="tests/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="css_tei_test.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CatSalonRoseCroix_1893">
+                      <teiHeader>
+                                            <fileDesc>
+                                                  <titleStmt>
+                                                  <title>Catalogue du Salon de la Rose Croix: geste
+                                                  esthétique</title>
+                                                  <editor role="metadata"><persName>Juliette
+                                                  Janes</persName></editor>
+                                                  <editor role="data"><persName>Juliette
+                                                  Janes</persName></editor>
+                                                  </titleStmt>
+                                                  <publicationStmt>
+                                                  <publisher><name>VISUAL CONTAGIONS</name><persName
+                                                  type="director">Béatrice
+                                                  Joyeux-Prunel</persName><orgName>UNIGE</orgName><address>
+                                                  <addrLine>5 rue des Battoirs 7</addrLine>
+                                                  <postCode>1205</postCode>
+                                                  <settlement>Genève</settlement>
+                                                  </address></publisher>
+                                                  <date when="2021"/>
+                                                  <availability>
+                                                  <licence
+                                                  target="https://creativecommons.org/licenses/by/4.0/"
+                                                  >CC-BY</licence>
+                                                  <licence
+                                                  target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"
+                                                  />
+                                                  </availability>
+                                                  </publicationStmt>
+                                                  <sourceDesc>
+                                                  <bibl type="exhibition_catalog">
+                                                  <title>Catalogue du Salon de la Rose Croix: geste
+                                                  esthétique</title>
+                                                  <author>Salon de la Rose Croix</author>
+                                                  <publisher>Librairie Nelsson</publisher>
+                                                  <pubPlace>Paris</pubPlace>
+                                                  <date>1893</date>
+                                                  <relatedItem>
+                                                  <msDesc>
+                                                  <msIdentifier>
+                                                  <repository>Bibliothèque nationale de
+                                                  France</repository>
+                                                  </msIdentifier>
+                                                  <additional>
+                                                  <surrogates><ref
+                                                  facs="http://catalogue.bnf.fr/ark:/12148/cb32738012d"
+                                                  /><name role="digitisation">Bibliothèque nationale
+                                                  de France</name></surrogates>
+                                                  </additional>
+                                                  </msDesc>
+
+                                                  </relatedItem>
+                                                  <extent>217 p.</extent>
+                                                  </bibl>
+                                                  <listEvent>
+                                                  <event type="exhibition" subtype="fixed"
+                                                  from="1893-03-27" to="1893-04-30">
+                                                  <head>Deuxième Salon de la Rose Croix</head>
+                                                  <head type="salon">Salon de la Rose Croix</head>
+                                                  <desc>
+                                                  <listPlace>
+                                                  <place>
+                                                  <label>Dôme du champ de Mars, Paris</label>
+                                                  </place>
+                                                  </listPlace>
+                                                  </desc>
+                                                  </event>
+                                                  </listEvent>
+                                                  </sourceDesc>
+                                            </fileDesc>
+                                            <profileDesc/>
+                                            <encodingDesc>
+                                                  <samplingDecl>
+                                                  <p>This electronic version of the catalog only
+                                                  reproduces the entries that sourceond to exhibited
+                                                  works. All text preceding or succeeding the list
+                                                  of documents is not reproduced below.</p>
+                                                  </samplingDecl>
+                                                  <!--<appInfo>
+                                                  <application/>
+                                                  </appInfo>-->
+                                            </encodingDesc>
+                                            <revisionDesc/>
+                      </teiHeader>
+                      <text>
+                                            <body>
+                                                  <list>
+                                                  <entry n="1" xml:id="CatSalonRoseCroix_1893_e1"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f12/full/full/0/default.jpg">
+                                                  <desc><name>AMAN-JEAN.</name><trait>
+                                                  <p>— 15, quai Bourbon</p>
+                                                  </trait></desc>
+                                                  <item n="1" xml:id="CatSalonRoseCroix_1893_e1_i1"
+                                                  ><num>1</num><title>— Affiche de la seconde geste
+                                                  esthétique.</title></item>
+                                                  <item n="2" xml:id="CatSalonRoseCroix_1893_e1_i2"
+                                                  ><num>2</num><title>— Rêverie.</title></item>
+                                                  </entry>
+                                                  <entry n="2" xml:id="CatSalonRoseCroix_1893_e2"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f12/full/full/0/default.jpg">
+                                                  <desc><name>AZAMBRE (Etienne).</name><trait>
+                                                  <p>— 13, rue Bonaparte.</p>
+                                                  </trait></desc>
+                                                  <item n="3" xml:id="CatSalonRoseCroix_1893_e2_i3"
+                                                  ><num>3</num><title>— La
+                                                  Sainte-Famille.</title></item>
+                                                  <item n="4" xml:id="CatSalonRoseCroix_1893_e2_i4"
+                                                  ><num>4</num><title>— Le Rêve de sainte
+                                                  Cécile.</title></item>
+                                                  <item n="5" xml:id="CatSalonRoseCroix_1893_e2_i5"
+                                                  ><num>5</num><title>Tête de Femme.</title></item>
+                                                  <item n="6" xml:id="CatSalonRoseCroix_1893_e2_i6"
+                                                  ><num>6</num><title>— De Dofundis</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  </entry>
+                                                  <entry n="3" xml:id="CatSalonRoseCroix_1893_e3"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f12/full/full/0/default.jpg">
+                                                  <desc><name>BERENGIER.</name><trait>
+                                                  <p>— 39, rue de Constantinople.</p>
+                                                  </trait></desc>
+                                                  <item n="7" xml:id="CatSalonRoseCroix_1893_e3_i7"
+                                                  ><num>7</num><title>— Etude de
+                                                  blonde.</title></item>
+                                                  <item n="8" xml:id="CatSalonRoseCroix_1893_e3_i8"
+                                                  ><num>8</num><title>— Patricienne.</title></item>
+                                                  <item n="9" xml:id="CatSalonRoseCroix_1893_e3_i9"
+                                                  ><num>9</num><title>— Enigmatique.</title></item>
+                                                  <item n="10"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i10"
+                                                  ><num>10</num><title>— Mireille.</title></item>
+                                                  <item n="11"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i11"
+                                                  ><num>11</num><title>— Hérodiade.</title></item>
+                                                  <item n="12"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i12"
+                                                  ><num>12</num><title>— Beauté de
+                                                  jadis.</title></item>
+                                                  <item n="13"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i13"
+                                                  ><num>13</num><title>— Lironie
+                                                  seruelle.</title></item>
+                                                  <item n="14"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i14"
+                                                  ><num>14</num><title>— Le Dauphin.</title></item>
+                                                  <item n="15"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i15"
+                                                  ><num>15</num><title>— Portrait
+                                                  d’âme.</title></item>
+                                                  <item n="16"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i16"
+                                                  ><num>16</num><title>— Princesse
+                                                  Lombarde.</title></item>
+                                                  <item n="17"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i17"
+                                                  ><num>17</num><title>— Pestolet.</title></item>
+                                                  <item n="18"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i18"
+                                                  ><num>18</num><title>— D’après Lord
+                                                  Byron.</title></item>
+                                                  <item n="19"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i19"
+                                                  ><num>19</num><title>— Etude
+                                                  lombarde.</title></item>
+                                                  <item n="20"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i20"
+                                                  ><num>20</num><title>— Etude pour
+                                                  Ariane.</title></item>
+                                                  <item n="21"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i21"
+                                                  ><num>21</num><title>— Sourire
+                                                  Jupitérien.</title></item>
+                                                  <item n="22"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i22"
+                                                  ><num>22</num><title>— Léande.</title></item>
+                                                  <item n="23"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i23"
+                                                  ><num>23</num><title>— Etudes.</title></item>
+                                                  <item n="24"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i24"
+                                                  ><num>24</num><title>— Page.</title></item>
+                                                  <item n="25"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i25"
+                                                  ><num>25</num><title>— Etude
+                                                  Florentine</title></item>
+                                                  <item n="26"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i26"
+                                                  ><num>26</num><title>— Sourire.</title></item>
+                                                  <item n="27"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i27"
+                                                  ><num>27</num><title>— Hébé.</title></item>
+                                                  <item n="28"
+                                                  xml:id="CatSalonRoseCroix_1893_e3_i28"
+                                                  ><num>28</num><title>— Spasine.</title></item>
+                                                  </entry>
+                                                  <entry n="4" xml:id="CatSalonRoseCroix_1893_e4"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f13/full/full/0/default.jpg">
+                                                  <desc><name>BETHUNE (Gaston).</name><trait>
+                                                  <p>— 10, rue Michel-Ange.</p>
+                                                  </trait></desc>
+                                                  <item n="29"
+                                                  xml:id="CatSalonRoseCroix_1893_e4_i29"
+                                                  ><num>29</num><title>— Trio</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="30"
+                                                  xml:id="CatSalonRoseCroix_1893_e4_i30"
+                                                  ><num>30</num><title>— Oudine</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="31"
+                                                  xml:id="CatSalonRoseCroix_1893_e4_i31"
+                                                  ><num>31</num><title>— Bayreuth: La Terrasse du
+                                                  Ghéâtre</title>
+                                                  <desc>(aquarelle).</desc></item>
+                                                  <item n="32"
+                                                  xml:id="CatSalonRoseCroix_1893_e4_i32"
+                                                  ><num>32</num><title>— Bayreuth: Pendant la
+                                                  représentation</title>
+                                                  <desc>(aquarelle).</desc></item>
+                                                  </entry>
+                                                  <entry n="5" xml:id="CatSalonRoseCroix_1893_e5"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f13/full/full/0/default.jpg">
+                                                  <desc><name>BLOCHE (Roger),</name><trait>
+                                                  <p>22 avenue de Saint Ouen</p>
+                                                  </trait></desc>
+                                                  <item n="33"
+                                                  xml:id="CatSalonRoseCroix_1893_e5_i33"
+                                                  ><num>33</num><title>— Virginale dolence</title>
+                                                  <desc>(bronze argenté sculp.).</desc></item>
+                                                  </entry>
+                                                  <entry n="6" xml:id="CatSalonRoseCroix_1893_e6"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f13/full/full/0/default.jpg">
+                                                  <desc><name>BOJIDAR (Prince
+                                                  Karageorgevitch)</name><trait>
+                                                  <p>64 avenue du Bois</p>
+                                                  </trait></desc>
+                                                  <item n="34"
+                                                  xml:id="CatSalonRoseCroix_1893_e6_i34"
+                                                  ><num>34</num><title>— Frappes et l’on vous
+                                                  ouvrira</title>
+                                                  <desc>(aquarelle).</desc></item>
+                                                  </entry>
+                                                  <entry n="7" xml:id="CatSalonRoseCroix_1893_e7"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f13/full/full/0/default.jpg">
+                                                  <desc><name>BOUY (Gaston).</name><trait>
+                                                  <p>— 26, ruo Victor-Massé.</p>
+                                                  </trait></desc>
+                                                  <item n="35"
+                                                  xml:id="CatSalonRoseCroix_1893_e7_i35"
+                                                  ><num>35</num><title>— Sacrifice</title></item>
+                                                  </entry>
+                                                  <entry n="8" xml:id="CatSalonRoseCroix_1893_e8"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f14/full/full/0/default.jpg">
+                                                  <desc><name>BUSSIERE (Gaston).</name><trait>
+                                                  <p>— 59, avenue de Saxe.</p>
+                                                  </trait></desc>
+                                                  <item n="36"
+                                                  xml:id="CatSalonRoseCroix_1893_e8_i36"
+                                                  ><num>36</num><title>— Esquisses
+                                                  décoratives</title>
+                                                  <desc>(triptyque).</desc></item>
+                                                  <item n="37"
+                                                  xml:id="CatSalonRoseCroix_1893_e8_i37"
+                                                  ><num>37</num><title>— Brunhilde.</title></item>
+                                                  <item n="38"
+                                                  xml:id="CatSalonRoseCroix_1893_e8_i38"
+                                                  ><num>38</num><title>— Mort des
+                                                  Preux.</title></item>
+                                                  <item n="39"
+                                                  xml:id="CatSalonRoseCroix_1893_e8_i39"
+                                                  ><num>39</num><title>— Mort de Roland </title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  </entry>
+                                                  <entry n="9" xml:id="CatSalonRoseCroix_1893_e9"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f14/full/full/0/default.jpg">
+                                                  <desc><name>CHABAS (Maurice).</name><trait>
+                                                  <p>— 3, rue Bara.</p>
+                                                  </trait></desc>
+                                                  <item n="40"
+                                                  xml:id="CatSalonRoseCroix_1893_e9_i40"
+                                                  ><num>40</num><title>— LAnge des
+                                                  Grèves.</title></item>
+                                                  <item n="41"
+                                                  xml:id="CatSalonRoseCroix_1893_e9_i41"
+                                                  ><num>41</num><title>— Vision astrale</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="42"
+                                                  xml:id="CatSalonRoseCroix_1893_e9_i42"
+                                                  ><num>42</num><title>— Projets de
+                                                  décoration</title>
+                                                  <desc>(esquisses).</desc></item>
+                                                  <item n="43"
+                                                  xml:id="CatSalonRoseCroix_1893_e9_i43"
+                                                  ><num>43</num><title>Voix de
+                                                  l'Au-Delà</title></item>
+                                                  <item n="44"
+                                                  xml:id="CatSalonRoseCroix_1893_e9_i44"
+                                                  ><num>44</num><title>— Spiritualité
+                                                  (tête).</title></item>
+                                                  </entry>
+                                                  <entry n="10" xml:id="CatSalonRoseCroix_1893_e10"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f14/full/full/0/default.jpg">
+                                                  <desc><name>CIAMBERLANI (A.)</name><trait>
+                                                  <p>— Rue Lockanghin, Bruxelles.</p>
+                                                  </trait></desc>
+                                                  <item n="45"
+                                                  xml:id="CatSalonRoseCroix_1893_e10_i45"
+                                                  ><num>45</num><title>— Illusion.</title></item>
+                                                  </entry>
+                                                  <entry n="11" xml:id="CatSalonRoseCroix_1893_e11"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f14/full/full/0/default.jpg">
+                                                  <desc><name>CLARK (S.)</name></desc>
+                                                  <item n="46"
+                                                  xml:id="CatSalonRoseCroix_1893_e11_i46"
+                                                  ><num>46</num><title>— Tanit</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="47"
+                                                  xml:id="CatSalonRoseCroix_1893_e11_i47"
+                                                  ><num>47</num><title>— L’Illusion.</title></item>
+                                                  </entry>
+                                                  <entry n="12" xml:id="CatSalonRoseCroix_1893_e12"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f14/full/full/0/default.jpg">
+                                                  <desc><name>CORNILLIER (Pierre-Émile).</name><trait>
+                                                  <p>— 21, rue Guénégaud.</p>
+                                                  </trait></desc>
+                                                  <item n="48"
+                                                  xml:id="CatSalonRoseCroix_1893_e12_i48"
+                                                  ><num>48</num><title>— L’Inspiration
+                                                  musicale</title>
+                                                  <desc>(Éventail).</desc></item>
+                                                  <item n="49-60"
+                                                  xml:id="CatSalonRoseCroix_1893_e12_i49"><num>49 à
+                                                  60 —</num><title> Série de douze dessins pour
+                                                  illustrer les poèmes philosophiques de Victor
+                                                  Hugo.</title></item>
+                                                  <item n="61"
+                                                  xml:id="CatSalonRoseCroix_1893_e12_i61"><num>61 62
+                                                  — </num><title>Deux dessins pour illustrer le «
+                                                  Pilgrimm's Progress by Bunyam ».</title></item>
+                                                  </entry>
+                                                  <entry n="13" xml:id="CatSalonRoseCroix_1893_e13"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f15/full/full/0/default.jpg">
+                                                  <desc><name>COUTY (Edme).</name><trait>
+                                                  <p>— 91, rue de Prony.</p>
+                                                  </trait></desc>
+                                                  <item n="63"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i63"
+                                                  ><num>63</num><title>— Chant du soir</title>
+                                                  <desc>(Panneau décoratif).</desc></item>
+                                                  <item n="64"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i64"
+                                                  ><num>64</num><title>— Fleur des bois</title>
+                                                  <desc>(Panneau décoratif).</desc></item>
+                                                  <item n="65"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i65"
+                                                  ><num>65</num><title>— Mélancolie</title>
+                                                  (Esquisse d’un panneau décoratif.).</item>
+                                                  <item n="66"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i66"
+                                                  ><num>66</num><title>— La Jeunesse</title>
+                                                  <desc>(Dessin, Esquisse d’un panneau
+                                                  décoratif).</desc></item>
+                                                  <item n="67"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i67"
+                                                  ><num>67</num><title>— Réverie mystique
+                                                  </title><desc>(Aquarelle).</desc></item>
+                                                  <item n="68"
+                                                  xml:id="CatSalonRoseCroix_1893_e13_i68"
+                                                  ><num>68</num><title>— Eden
+                                                  </title><desc>(Aquarelle).</desc></item>
+                                                  </entry>
+                                                  <entry n="14" xml:id="CatSalonRoseCroix_1893_e14"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f15/full/full/0/default.jpg">
+                                                  <desc><name>DELACROIX (Eugène).</name><trait>
+                                                  <p>— 22, rue de Douai</p>
+                                                  </trait></desc>
+                                                  <item n="69"
+                                                  xml:id="CatSalonRoseCroix_1893_e14_i69"
+                                                  ><num>69</num><title>— Pietà.</title></item>
+                                                  </entry>
+                                                  <entry n="15" xml:id="CatSalonRoseCroix_1893_e15"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f15/full/full/0/default.jpg">
+                                                  <desc><name>DELVILLE (Jean).</name><trait>
+                                                  <p>— 45, quai Bourbon, Paris et 31, rue de
+                                                  l’Église, à Saint-Gilles-lès-Bruxelles.</p>
+                                                  </trait></desc>
+                                                  <item n="70"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i70"
+                                                  ><num>70</num><title>— Impéria.</title></item>
+                                                  <item n="71"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i71"
+                                                  ><num>71</num><title>— Elégia.</title></item>
+                                                  <item n="72"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i72"
+                                                  ><num>72</num><title>— Symbolisation de la Chair
+                                                  et de l’Esprit¬</title></item>
+                                                  <item n="73"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i73"
+                                                  ><num>73</num><title>— Vers
+                                                  l’Inconnu.</title></item>
+                                                  <item n="74"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i74"
+                                                  ><num>74</num><title>— L’Homme du
+                                                  glaive.</title></item>
+                                                  <item n="75"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i75"
+                                                  ><num>75</num><title>— Mystériosa.</title></item>
+                                                  <item n="76"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i76"
+                                                  ><num>76</num><title>—
+                                                  L’Annonciateur.</title></item>
+                                                  <item n="77"
+                                                  xml:id="CatSalonRoseCroix_1893_e15_i77"
+                                                  ><num>77</num><title>— Le Murmure
+                                                  profane.</title></item>
+                                                  </entry>
+                                                  <entry n="16" xml:id="CatSalonRoseCroix_1893_e16"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f15/full/full/0/default.jpg">
+                                                  <desc><name>DESBOUTINS (Marcellin).</name><trait>
+                                                  <p>— 5. rue Bréda.</p>
+                                                  </trait></desc>
+                                                  <item n="78"
+                                                  xml:id="CatSalonRoseCroix_1893_e16_i78"
+                                                  ><num>78</num><title>— Portait du Sar
+                                                  Peladan,</title><desc> Grand-Maître de l’Ordre
+                                                  laïque de la Rose Croix, du Temple et du
+                                                  Graal.</desc></item>
+                                                  </entry>
+                                                  <entry n="17" xml:id="CatSalonRoseCroix_1893_e17"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>DÉNEUX,</name><trait>
+                                                  <p>— 6, rue Lécluse.</p>
+                                                  </trait></desc>
+                                                  <item n="79"
+                                                  xml:id="CatSalonRoseCroix_1893_e17_i79"
+                                                  ><num>79</num><title>— Ronde des
+                                                  Fées.</title></item>
+                                                  </entry>
+                                                  <entry n="18" xml:id="CatSalonRoseCroix_1893_e18"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>DUTHOIT()</name><trait>
+                                                  <p>— 9, rue des Fourneaux.</p>
+                                                  </trait></desc>
+                                                  <item n="80"
+                                                  xml:id="CatSalonRoseCroix_1893_e18_i80"
+                                                  ><num>80</num><title>— La Vierge de
+                                                  l’Apocalypse.</title></item>
+                                                  </entry>
+                                                  <entry n="19" xml:id="CatSalonRoseCroix_1893_e19"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>EDOUARD (A.)</name><trait>
+                                                  <p>19 quai Saint Michel</p>
+                                                  </trait></desc>
+                                                  <item n="81"
+                                                  xml:id="CatSalonRoseCroix_1893_e19_i81"
+                                                  ><num>81</num><title>— La Poèsie
+                                                  Lyrique.</title></item>
+                                                  <item n="82"
+                                                  xml:id="CatSalonRoseCroix_1893_e19_i82"
+                                                  ><num>82</num><title>— La Fin du
+                                                  Ramadam.</title></item>
+                                                  </entry>
+                                                  <entry n="20" xml:id="CatSalonRoseCroix_1893_e20"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>EGUSQUIZA (Raymond de).</name><trait>
+                                                  <p>— 32, rue Copernic.</p>
+                                                  </trait></desc>
+                                                  <item n="83"
+                                                  xml:id="CatSalonRoseCroix_1893_e20_i83"
+                                                  ><num>83</num><title>— Richard Wagner</title>
+                                                  <desc>(eau-forte d’après la seule photographie
+                                                  dont le maître f̂ut content).</desc></item>
+                                                  <item n="84"
+                                                  xml:id="CatSalonRoseCroix_1893_e20_i84"
+                                                  ><num>84</num><title>— Wagner</title>
+                                                  <desc>(buste, plâtre).</desc></item>
+                                                  </entry>
+                                                  <entry n="21" xml:id="CatSalonRoseCroix_1893_e21"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>EHRMANN</name><trait>
+                                                  <p>— 74, faubourg Saint-Géon, à Nancy.</p>
+                                                  </trait></desc>
+                                                  <item n="86"
+                                                  xml:id="CatSalonRoseCroix_1893_e21_i86"
+                                                  ><num>86</num><title>— La Présentation aux
+                                                  étoiles,</title>
+                                                  <desc>Fête des rites de Laotsau,</desc></item>
+                                                  </entry>
+                                                  <entry n="22" xml:id="CatSalonRoseCroix_1893_e22"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f16/full/full/0/default.jpg">
+                                                  <desc><name>FABRY (Emile)</name><trait>
+                                                  <p>rue Potagère, 68, Bruxelles</p>
+                                                  </trait></desc>
+                                                  <item n="87"
+                                                  xml:id="CatSalonRoseCroix_1893_e22_i87"
+                                                  ><num>87</num><title>— Prison.</title></item>
+                                                  <item n="88"
+                                                  xml:id="CatSalonRoseCroix_1893_e22_i88"
+                                                  ><num>88</num><title>— Méditation.</title></item>
+                                                  <item n="89"
+                                                  xml:id="CatSalonRoseCroix_1893_e22_i89"
+                                                  ><num>89</num><title>— Pensée.</title></item>
+                                                  </entry>
+                                                  <entry n="23" xml:id="CatSalonRoseCroix_1893_e23"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f17/full/full/0/default.jpg">
+                                                  <desc><name>FEURE (E.de)</name></desc>
+                                                  <item n="90"
+                                                  xml:id="CatSalonRoseCroix_1893_e23_i90"
+                                                  ><num>90</num><title>Fleur du mal.</title></item>
+                                                  <item n="91"
+                                                  xml:id="CatSalonRoseCroix_1893_e23_i91"
+                                                  ><num>91</num><title> Feux follets.</title></item>
+                                                  <item n="92"
+                                                  xml:id="CatSalonRoseCroix_1893_e23_i92"
+                                                  ><num>92</num><title>— Vision.</title></item>
+                                                  <item n="93"
+                                                  xml:id="CatSalonRoseCroix_1893_e23_i93"
+                                                  ><num>93</num><title>Décoration.</title></item>
+                                                  </entry>
+                                                  <entry n="24" xml:id="CatSalonRoseCroix_1893_e24"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f17/full/full/0/default.jpg">
+                                                  <desc><name>FOX (G-B.).</name><trait>
+                                                  <p>— 32, rue de Vaugirard.</p>
+                                                  </trait></desc>
+                                                  <item n="94"
+                                                  xml:id="CatSalonRoseCroix_1893_e24_i94"
+                                                  ><num>94</num><title>— La Résurrectin de
+                                                  Lazare</title>
+                                                  <desc>(esquisse, pastel).</desc></item>
+                                                  </entry>
+                                                  <entry n="25" xml:id="CatSalonRoseCroix_1893_e25"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f17/full/full/0/default.jpg">
+                                                  <desc><name>GACHONS (André des).</name><trait>
+                                                  <p>— 28, rue Servandoni.</p>
+                                                  </trait></desc>
+                                                  <item n="95"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i95"
+                                                  ><num>98</num><title>— L'Étang
+                                                  calme</title><desc>(I.L'Aurore II.Les Parfums
+                                                  nocturnes)</desc></item>
+                                                  <item n="96"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i96"
+                                                  ><num>96</num><title>Celle qui
+                                                  songe.</title></item>
+                                                  <item n="97"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i97"
+                                                  ><num>97</num><title>— Lecture
+                                                  pieuse.</title></item>
+                                                  <item n="98"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i98"
+                                                  ><num>98</num><title>— Le Poète suit sa
+                                                  Muse.</title></item>
+                                                  <item n="99"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i99"
+                                                  ><num>99</num><title>— Enfer, Purgatoire,
+                                                  Paradis</title></item>
+                                                  <item n="100"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i100"
+                                                  ><num>100</num><title>— Chasteté qui passe </title>
+                                                  <desc>(appartenant à la Plume).</desc></item>
+                                                  <item n="101"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i101"
+                                                  ><num>101</num><title>— La Guillaneu</title>
+                                                  <desc>(croquis pour l’illustration d’une vieille
+                                                  chanson poitevine).</desc></item>
+                                                  <item n="102"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i102"
+                                                  ><num>102</num><title>— Ma Mie Jehanne</title>
+                                                  <desc>(pour illustrer une prose de Jacques des
+                                                  Gachons).</desc></item>
+                                                  <item n="103"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i103"
+                                                  ><num>103</num><title>— Les litanies de ma
+                                                  Muse.</title></item>
+                                                  <item n="104"
+                                                  xml:id="CatSalonRoseCroix_1893_e25_i104"
+                                                  ><num>104</num><title>— Vision</title></item>
+                                                  </entry>
+                                                  <entry n="26" xml:id="CatSalonRoseCroix_1893_e26"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f17/full/full/0/default.jpg">
+                                                  <desc><name>GAILLARD</name></desc>
+                                                  <item n="108"
+                                                  xml:id="CatSalonRoseCroix_1893_e26_i108"
+                                                  ><num>108</num><title>— Mistral,</title>
+                                                  <desc>comte de Provenco, d’après un dessin
+                                                  d’Hébert.</desc></item>
+                                                  </entry>
+                                                  <entry n="27" xml:id="CatSalonRoseCroix_1893_e27"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f17/full/full/0/default.jpg">
+                                                  <desc><name>GÉRIN (René).</name><trait>
+                                                  <p>— 17, avenue de Villiers.</p>
+                                                  </trait></desc>
+                                                  <item n="106"
+                                                  xml:id="CatSalonRoseCroix_1893_e27_i106"
+                                                  ><num>106</num><title>—
+                                                  Contemplation.</title></item>
+                                                  </entry>
+                                                  <entry n="28" xml:id="CatSalonRoseCroix_1893_e28"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>HABERT (E.).</name><trait>
+                                                  <p>— 5, avenue Philippe-le-Boucher, Neuilly.</p>
+                                                  </trait></desc>
+                                                  <item n="107"
+                                                  xml:id="CatSalonRoseCroix_1893_e28_i107"
+                                                  ><num>107</num><title>— Sainte Elisabeth ; le
+                                                  Miracle des Roses.</title></item>
+                                                  <item n="108"
+                                                  xml:id="CatSalonRoseCroix_1893_e28_i108"
+                                                  ><num>108</num><title>— La Légende de Runstephan
+                                                  </title><desc>(Finistère).</desc></item>
+                                                  <item n="109"
+                                                  xml:id="CatSalonRoseCroix_1893_e28_i109"
+                                                  ><num>109</num><title>— Princesse</title>
+                                                  <desc>(Panneau cuir).</desc></item>
+                                                  </entry>
+                                                  <entry n="29" xml:id="CatSalonRoseCroix_1893_e29"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>HANNOTIAU (Alex, Aug.).</name><trait>
+                                                  <p>— 118, chaussée de Bruxelles.</p>
+                                                  </trait></desc>
+                                                  <item n="110"
+                                                  xml:id="CatSalonRoseCroix_1893_e29_i110"
+                                                  ><num>110</num><title>— Dans le
+                                                  Parc.</title></item>
+                                                  <item n="111"
+                                                  xml:id="CatSalonRoseCroix_1893_e29_i111"
+                                                  ><num>111</num><title>— Soir en
+                                                  Province.</title></item>
+                                                  <item n="112"
+                                                  xml:id="CatSalonRoseCroix_1893_e29_i412"
+                                                  ><num>112</num><title>— Les Cinq
+                                                  Béguines.</title></item>
+                                                  </entry>
+                                                  <entry n="30" xml:id="CatSalonRoseCroix_1893_e30"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>JACOUES (Léon).</name><trait>
+                                                  <p>— 20, rue de la Buanderie, Bruxolles.</p>
+                                                  </trait></desc>
+                                                  <item n="113"
+                                                  xml:id="CatSalonRoseCroix_1893_e30_i113"
+                                                  ><num>113</num><title>— Le Lys.</title></item>
+                                                  <item n="114"
+                                                  xml:id="CatSalonRoseCroix_1893_e30_i114"
+                                                  ><num>114</num><title>— Parfums du
+                                                  Soir</title></item>
+                                                  <item n="115"
+                                                  xml:id="CatSalonRoseCroix_1893_e30_i115"
+                                                  ><num>115</num><title>— Le Sphinx</title></item>
+                                                  </entry>
+                                                  <entry n="31" xml:id="CatSalonRoseCroix_1893_e31"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>JACQUIN</name></desc>
+                                                  <item n="116"
+                                                  xml:id="CatSalonRoseCroix_1893_e31_i116"
+                                                  ><num>116</num><title>Charité.</title></item>
+                                                  <item n="117"
+                                                  xml:id="CatSalonRoseCroix_1893_e31_i117"
+                                                  ><num>117</num><title>— La Nature victorieuse de
+                                                  l’Idée.</title></item>
+                                                  </entry>
+                                                  <entry n="32" xml:id="CatSalonRoseCroix_1893_e32"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>KINOPFF (Fernan).</name><trait>
+                                                  <p>— 1, quai St-Bernard, Bruxelles.</p>
+                                                  </trait></desc>
+                                                  <item n="118"
+                                                  xml:id="CatSalonRoseCroix_1893_e32_i118"
+                                                  ><num>118</num><title>— L lock my door upon
+                                                  myself</title></item>
+                                                  <item n="119"
+                                                  xml:id="CatSalonRoseCroix_1893_e32_i119"
+                                                  ><num>119</num><title>— L’Offrande</title></item>
+                                                  <item n="120"
+                                                  xml:id="CatSalonRoseCroix_1893_e32_i120"
+                                                  ><num>120</num><title>Victoria</title></item>
+                                                  <item n="121"
+                                                  xml:id="CatSalonRoseCroix_1893_e32_i121"
+                                                  ><num>121</num><title>— Dessins pour une
+                                                  Sphinge.</title></item>
+                                                  <item n="122"
+                                                  xml:id="CatSalonRoseCroix_1893_e32_i122"
+                                                  ><num>122</num><title>— Dessins pour
+                                                  Victoria.</title></item>
+                                                  </entry>
+                                                  <entry n="33" xml:id="CatSalonRoseCroix_1893_e33"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f18/full/full/0/default.jpg">
+                                                  <desc><name>LADUMOND.</name><trait>
+                                                  <p>— Paris.</p>
+                                                  </trait></desc>
+                                                  <item n="123"
+                                                  xml:id="CatSalonRoseCroix_1893_e33_i123"
+                                                  ><num>123</num><title>— L’Éternelle
+                                                  Gloire</title></item>
+                                                  </entry>
+                                                  <entry n="34" xml:id="CatSalonRoseCroix_1893_e34"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f19/full/full/0/default.jpg">
+                                                  <desc><name>LA LYRE (Adolphe).</name><trait>
+                                                  <p>— 4, rue Saint-Paul.</p>
+                                                  </trait></desc>
+                                                  <item n="124"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i124"
+                                                  ><num>124</num><title>— La Première
+                                                  Relique.</title></item>
+                                                  <item n="125"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i125"
+                                                  ><num>125</num><title>— Sainte
+                                                  Cécile</title></item>
+                                                  <item n="126"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i126"
+                                                  ><num>126</num><title>— Sainte
+                                                  Madeleine.</title></item>
+                                                  <item n="127"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i127"
+                                                  ><num>127</num><title>— L'Appel.</title></item>
+                                                  <item n="128"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i128"
+                                                  ><num>128</num><title> Cléopâtre</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="129"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i129"
+                                                  ><num>129</num><title>— Communion mystique de
+                                                  sainte Madeleine</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="130"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i130"
+                                                  ><num>130</num><title>— La Fuite en
+                                                  Egypte</title><desc>(esquisse).</desc>
+                                                  </item>
+                                                  <item n="131"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i131"
+                                                  ><num>131</num><title>— Sainte Elisabeth</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="132"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i132"
+                                                  ><num>132</num><title>— L'Étoile du
+                                                  Matin</title></item>
+                                                  <item n="133"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i133"
+                                                  ><num>133</num><title>— Idylle.</title></item>
+                                                  <item n="134"
+                                                  xml:id="CatSalonRoseCroix_1893_e34_i134"
+                                                  ><num>134</num><title>— Sainte Perpétue,
+                                                  martyre</title>
+                                                  <desc>(dessin).</desc></item>
+                                                  </entry>
+                                                  <entry n="35" xml:id="CatSalonRoseCroix_1893_e35"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f19/full/full/0/default.jpg">
+                                                  <desc><name>LE PETIT (Afred).</name><trait>
+                                                  <p>— 128, boulevard de Courcelles.</p>
+                                                  </trait></desc>
+                                                  <item n="138"
+                                                  xml:id="CatSalonRoseCroix_1893_e35_i138"
+                                                  ><num>138</num><title>— Une Morte.</title></item>
+                                                  </entry>
+                                                  <entry n="36" xml:id="CatSalonRoseCroix_1893_e36"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f19/full/full/0/default.jpg">
+                                                  <desc><name>LORIN (Georges).</name><trait>
+                                                  <p>— 7, rue Campagne,-Première.</p>
+                                                  </trait></desc>
+                                                  <item n="136"
+                                                  xml:id="CatSalonRoseCroix_1893_e36_i136"
+                                                  ><num>136</num><title>— Le Silence.</title></item>
+                                                  <item n="137"
+                                                  xml:id="CatSalonRoseCroix_1893_e36_i137"
+                                                  ><num>137</num><title>— La Source.</title></item>
+                                                  </entry>
+                                                  <entry n="37" xml:id="CatSalonRoseCroix_1893_e37"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f19/full/full/0/default.jpg">
+                                                  <desc><name>MALVAL.</name><trait>
+                                                  <p>— 13, rue Molitor.</p>
+                                                  </trait></desc>
+                                                  <item n="138"
+                                                  xml:id="CatSalonRoseCroix_1893_e37_i138"
+                                                  ><num>138</num><title> Cheval
+                                                  pâle.</title></item>
+                                                  </entry>
+                                                  <entry n="38" xml:id="CatSalonRoseCroix_1893_e38"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f19/full/full/0/default.jpg">
+                                                  <desc><name>MARCIUS SIMMONS.</name></desc>
+                                                  <item n="139"
+                                                  xml:id="CatSalonRoseCroix_1893_e38_i139"
+                                                  ><num>139</num><title>Esquisse.</title></item>
+                                                  <item n="140"
+                                                  xml:id="CatSalonRoseCroix_1893_e38_i140"
+                                                  ><num>140</num><title>— L’age de la
+                                                  Foi.</title></item>
+                                                  </entry>
+                                                  <entry n="39" xml:id="CatSalonRoseCroix_1893_e39"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f20/full/full/0/default.jpg">
+                                                  <desc><name>MASSY (Baron de Massy)</name></desc>
+                                                  <item n="141"
+                                                  xml:id="CatSalonRoseCroix_1893_e39_i141"
+                                                  ><num>141</num><title>— Intuition.</title></item>
+                                                  </entry>
+                                                  <entry n="40" xml:id="CatSalonRoseCroix_1893_e40"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f20/full/full/0/default.jpg">
+                                                  <desc><name>MELL-DUMONT (F.).</name><trait>
+                                                  <p>— 93, avenue de Villiers..</p>
+                                                  </trait></desc>
+                                                  <item n="144"
+                                                  xml:id="CatSalonRoseCroix_1893_e40_i144"
+                                                  ><num>144</num><title>— La Fuite en
+                                                  Egyte.</title></item>
+                                                  <item n="145"
+                                                  xml:id="CatSalonRoseCroix_1893_e40_i145"
+                                                  ><num>145</num><title>— LAnge à
+                                                  l’Etoile.</title></item>
+                                                  <item n="146"
+                                                  xml:id="CatSalonRoseCroix_1893_e40_i146"
+                                                  ><num>146</num><title>— Les
+                                                  Apôtres.</title></item>
+                                                  </entry>
+                                                  <entry n="41" xml:id="CatSalonRoseCroix_1893_e41"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f20/full/full/0/default.jpg">
+                                                  <desc><name>MERENTIER (François).</name><trait>
+                                                  <p>— 45, quai Bourbon.</p>
+                                                  </trait></desc>
+                                                  <item n="147"
+                                                  xml:id="CatSalonRoseCroix_1893_e41_i147"
+                                                  ><num>147</num><title>— Armoiries de l’Ordre
+                                                  laïque de le Rose Croix, du Temple et du
+                                                  Graal.Sceau de l’Ordre du Graal. Armoiries de
+                                                  l’Oudre du Graal.</title></item>
+                                                  <item n="148"
+                                                  xml:id="CatSalonRoseCroix_1893_e41_i148"
+                                                  ><num>148</num><title>— Sceau du
+                                                  Grand-Maitre.</title><desc>(Monogramme du
+                                                  Tigve.</desc></item>
+                                                  </entry>
+                                                  <entry n="42" xml:id="CatSalonRoseCroix_1893_e42"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f20/full/full/0/default.jpg">
+                                                  <desc><name>MOREAU-NÉRET.</name><trait>
+                                                  <p>— 15, rue Treilhard.</p>
+                                                  </trait></desc>
+                                                  <item n="149"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i149"
+                                                  ><num>149</num><title>— L'Amour vainqueur nargue
+                                                  la Sagesse.</title></item>
+                                                  <item n="150"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i150"
+                                                  ><num>150</num><title>— Erato</title>
+                                                  <desc>(carton de tapisserie,
+                                                  esquisse).</desc></item>
+                                                  <item n="151"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i151"
+                                                  ><num>151</num><title>— L’Architecture
+                                                  </title><desc>(esquisse
+                                                  décorative).</desc></item>
+                                                  <item n="152"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i162"
+                                                  ><num>152</num><title>— La Musique sacrée</title>
+                                                  <desc>(carton de vitrail, esquisse).</desc></item>
+                                                  <item n="153"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i153"
+                                                  ><num>153</num><title>— Le Musique
+                                                  profane.</title></item>
+                                                  <item n="154"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i154"
+                                                  ><num>154</num><title>— Diane
+                                                  invulnérable</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="155"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i155"
+                                                  ><num>155</num><title>— La Terre
+                                                  nouricière</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="156"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i156"
+                                                  ><num>156</num><title>Victoire</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  <item n="157"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i157"
+                                                  ><num>157</num><title>— La Récolte des figues
+                                                  </title><desc>(esquisse.).</desc></item>
+                                                  <item n="158"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i158"
+                                                  ><num>158</num><title>Vénus
+                                                  Victorieuse.</title></item>
+                                                  <item n="159"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i159"
+                                                  ><num>159</num><title>— Junon se venge de
+                                                  Vénus</title></item>
+                                                  <item n="160"
+                                                  xml:id="CatSalonRoseCroix_1893_e42_i160"
+                                                  ><num>160</num><title>La Musique.</title></item>
+                                                  </entry>
+                                                  <entry n="43" xml:id="CatSalonRoseCroix_1893_e43"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f21/full/full/0/default.jpg">
+                                                  <desc><name>MORREN (George).</name><trait>
+                                                  <p>— 51, avenue Montaigne.</p>
+                                                  </trait></desc>
+                                                  <item n="161"
+                                                  xml:id="CatSalonRoseCroix_1893_e43_i161"
+                                                  ><num>161</num><title>Ce qui a été sera</title>
+                                                  <desc>(fatalité).</desc></item>
+                                                  <item n="162"
+                                                  xml:id="CatSalonRoseCroix_1893_e43_i162"
+                                                  ><num>162</num><title>— Les Anges semant des
+                                                  Etoiles.</title></item>
+                                                  <item n="163"
+                                                  xml:id="CatSalonRoseCroix_1893_e43_i163"
+                                                  ><num>163</num><title>Une douloureuse
+                                                  Aurore</title><desc>Recherches pour un carton en
+                                                  exécution</desc></item>
+                                                  </entry>
+                                                  <entry n="44" xml:id="CatSalonRoseCroix_1893_e44"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f21/full/full/0/default.jpg">
+                                                  <desc><name>NOEL (Louis).</name><trait>
+                                                  <p>— 108, rue de Vaugirard.</p>
+                                                  </trait></desc>
+                                                  <item n="164"
+                                                  xml:id="CatSalonRoseCroix_1893_e44_i164"
+                                                  ><num>164</num><title>— Saint Thomas
+                                                  d’Aquin</title>
+                                                  <desc>(statue plâtre).</desc></item>
+                                                  </entry>
+                                                  <entry n="45" xml:id="CatSalonRoseCroix_1893_e45"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f21/full/full/0/default.jpg">
+                                                  <desc><name>OGIER (Charles).</name><trait>
+                                                  <p>— 159 bis, boulevard Montparnasse.</p>
+                                                  </trait></desc>
+                                                  <item n="165"
+                                                  xml:id="CatSalonRoseCroix_1893_e45_i165"
+                                                  ><num>165</num><title>— Prière du Matin</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="166"
+                                                  xml:id="CatSalonRoseCroix_1893_e45_i166"
+                                                  ><num>166</num><title>— Moise.</title></item>
+                                                  </entry>
+                                                  <entry n="46" xml:id="CatSalonRoseCroix_1893_e46"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f21/full/full/0/default.jpg">
+                                                  <desc><name>OSBERT (Alphonse),</name><trait>
+                                                  <p>— 7, rue Alain-Chartier.</p>
+                                                  </trait></desc>
+                                                  <item n="167"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i167"
+                                                  ><num>167</num><title>— Vision.</title></item>
+                                                  <item n="168"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i168"
+                                                  ><num>168</num><title>— Harmonie
+                                                  d’Automne.</title></item>
+                                                  <item n="169"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i169"
+                                                  ><num>169</num><title>— L’Adieu au
+                                                  Soleil.</title></item>
+                                                  <item n="170"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i170"
+                                                  ><num>170</num><title>— Le Sommeil.</title></item>
+                                                  <item n="171"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i171"
+                                                  ><num>171</num><title>— Causerie du
+                                                  Soir.</title></item>
+                                                  <item n="172"
+                                                  xml:id="CatSalonRoseCroix_1893_e46_i172"
+                                                  ><num>172</num><title>— Dessin pour l’Harmonie
+                                                  d’Automnè</title><desc> (appartient à Pierre de
+                                                  Lano).</desc></item>
+                                                  </entry>
+                                                  <entry n="47" xml:id="CatSalonRoseCroix_1893_e47"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f22/full/full/0/default.jpg">
+                                                  <desc><name>OTTEVAERE (Henri).</name><trait>
+                                                  <p>— 3t, rue de la Potterie.</p>
+                                                  </trait></desc>
+                                                  <item n="173"
+                                                  xml:id="CatSalonRoseCroix_1893_e47_i173"
+                                                  ><num>173</num><title>— Soir</title>
+                                                  <desc>(dessin).</desc></item>
+                                                  <item n="174"
+                                                  xml:id="CatSalonRoseCroix_1893_e47_i174"
+                                                  ><num>174</num><title>— Nuit</title>
+                                                  <desc>(dessin).</desc></item>
+                                                  </entry>
+                                                  <entry n="48" xml:id="CatSalonRoseCroix_1893_e48"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f22/full/full/0/default.jpg">
+                                                  <desc><name>OUDART (Felix).</name><trait>
+                                                  <p>— 10, rue du Cherche-Midi. (LEs INTLUENCES
+                                                  :</p>
+                                                  </trait></desc>
+                                                  <item n="175"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i175"
+                                                  ><num>175</num><title>— I. Devant le livre
+                                                  ouvert.</title></item>
+                                                  <item n="176"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i176"
+                                                  ><num>176</num><title>— II. Sidéral et.
+                                                  Cosmogonique.</title></item>
+                                                  <item n="177"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i177"
+                                                  ><num>177</num><title>— III. .. Dormante, elle
+                                                  rêve à d’orageuses mers.</title></item>
+                                                  <item n="178"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i178"
+                                                  ><num>178</num><title>— IV Erracité</title></item>
+                                                  <item n="179"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i179"
+                                                  ><num>179</num><title>V. Au Seuil).</title></item>
+                                                  <item n="180"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i180"
+                                                  ><num>180</num><title>— VI. Sur le.
+                                                  Chemin.</title></item>
+                                                  <item n="181"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i181"
+                                                  ><num>181</num><title>— VII. La Coupe du
+                                                  Martyre.</title></item>
+                                                  <item n="182"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i182"
+                                                  ><num>182</num><title>VIII. Le Christ est
+                                                  ressuscité!</title></item>
+                                                  <item n="183"
+                                                  xml:id="CatSalonRoseCroix_1893_e48_i183"
+                                                  ><num>183</num><title>— IX. La
+                                                  Froide.</title></item>
+                                                  </entry>
+                                                  <entry n="49" xml:id="CatSalonRoseCroix_1893_e49"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f22/full/full/0/default.jpg">
+                                                  <desc><name>PAYNE (Lord Arthur).</name><trait>
+                                                  <p>— 15, rue Vernet.</p>
+                                                  </trait></desc>
+                                                  <item n="184"
+                                                  xml:id="CatSalonRoseCroix_1893_e49_i184"
+                                                  ><num>184</num><title>— Le Rain
+                                                  empoisonné.</title></item>
+                                                  <item n="185"
+                                                  xml:id="CatSalonRoseCroix_1893_e49_i185"
+                                                  ><num>185</num><title>— Religieuse.</title></item>
+                                                  </entry>
+                                                  <entry n="50" xml:id="CatSalonRoseCroix_1893_e50"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f22/full/full/0/default.jpg">
+                                                  <desc><name>PÉZIEUX.</name><trait>
+                                                  <p>— 38. Avenue Duquesne.</p>
+                                                  </trait></desc>
+                                                  <item n="186"
+                                                  xml:id="CatSalonRoseCroix_1893_e50_i186"
+                                                  ><num>186</num><title>— Tête de Christ</title>
+                                                  <desc>(médaillon).</desc></item>
+                                                  </entry>
+                                                  <entry n="51" xml:id="CatSalonRoseCroix_1893_e51"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f23/full/full/0/default.jpg">
+                                                  <desc><name>PIERREY (Maurice).</name><trait>
+                                                  <p>— 56, rue de la Faisanderie.</p>
+                                                  </trait></desc>
+                                                  <item n="187"
+                                                  xml:id="CatSalonRoseCroix_1893_e51_i187"
+                                                  ><num>187</num><title>— Le Rayon de
+                                                  soleil.</title></item>
+                                                  <item n="188"
+                                                  xml:id="CatSalonRoseCroix_1893_e51_i188"
+                                                  ><num>188</num><title>Vesper.</title></item>
+                                                  </entry>
+                                                  <entry n="52" xml:id="CatSalonRoseCroix_1893_e52"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f23/full/full/0/default.jpg">
+                                                  <desc><name>POINT (Armand).</name><trait>
+                                                  <p>— 16, rue Vancau. — Au bord de l’Eurotas. .
+                                                  Ophélie (appartenant à M. de S.). — Sourtre de
+                                                  Printemps (pastel, à M. C.). — Projet de
+                                                  décoration (les douze mois de l’année). </p>
+                                                  </trait></desc>
+
+                                                  <item n="189"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i189"
+                                                  ><num>189</num><title>— Lion.</title></item>
+                                                  <item n="190"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i190"
+                                                  ><num>190</num><title>— Lionne.</title></item>
+                                                  <item n="191"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i191"
+                                                  ><num>191</num><title>— Gravité</title><desc>appartenant à M.Muron</desc></item><item n="192"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i192"
+                                                  ><num>192</num><title>— Ophèlie</title> <desc>(appartenant à
+                                                  M. de S.).</desc></item><item n="193"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i193"
+                                                  ><num>193</num><title>— Mystère </title> <desc>(appartenant à
+                                                  M. B.).</desc></item>
+                                                  
+                                                  
+                                                  <item n="194"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i194"
+                                                  ><num>194</num><title>— Etude pour un plafond</title>
+                                                  <desc>(appartenant à M. B.).</desc></item>
+                                                  <item n="195"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i195"
+                                                  ><num>195</num><title>— Songe </title><desc>(appartenant à M.
+                                                  B.).</desc></item>
+                                                  <item n="196"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i196"
+                                                  ><num>196</num><title>— Sérénité</title> <desc>(appartenant
+                                                  à Mme de S.).</desc></item>
+                                                  <item n="197"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i197"
+                                                  ><num>197</num><title>— Curiosité.</title></item>
+                                                  <item n="198"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i198"
+                                                  ><num>198</num><title>— Etude.</title></item>
+                                                  <item n="199"
+                                                  xml:id="CatSalonRoseCroix_1893_e52_i199"
+                                                  ><num>199</num><title>— Etude.</title></item>
+                                                  </entry>
+                                                  <entry n="53" xml:id="CatSalonRoseCroix_1893_e53"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f23/full/full/0/default.jpg">
+                                                  <desc><name>RAMBAUD (Pierre).</name><trait>
+                                                  <p>— 61, rue d’Erlanger.</p>
+                                                  </trait></desc>
+                                                  <item n="200"
+                                                  xml:id="CatSalonRoseCroix_1893_e53_i200"
+                                                  ><num>200</num><title> L'Inspiation</title> <desc>(tête
+                                                  bronze).</desc></item>
+                                                  <item n="201"
+                                                  xml:id="CatSalonRoseCroix_1893_e53_i201"
+                                                  ><num>201</num><title>— Mystère</title> <desc>(tête
+                                                  bronze).</desc></item>
+                                                  <item n="202"
+                                                  xml:id="CatSalonRoseCroix_1893_e53_i202"
+                                                  ><num>202</num><title>— Le Rêve</title> <desc>(tête
+                                                  marbre).</desc></item>
+                                                  <item n="203"
+                                                  xml:id="CatSalonRoseCroix_1893_e53_i203"
+                                                  ><num>203</num><title>— La Pensée</title> <desc>(tête
+                                                  marbre).</desc></item>
+                                                  </entry>
+                                                  <entry n="54" xml:id="CatSalonRoseCroix_1893_e54"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f24/full/full/0/default.jpg">
+                                                  <desc><name>REGAMEY (Félis).</name><trait>
+                                                  <p>— 6, rue Goetlogon.</p>
+                                                  </trait></desc>
+                                                  <item n="204"
+                                                  xml:id="CatSalonRoseCroix_1893_e54_i204"
+                                                  ><num>204</num><title>— Le Vent.</title></item>
+                                                  </entry>
+                                                  <entry n="55" xml:id="CatSalonRoseCroix_1893_e55"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f24/full/full/0/default.jpg">
+                                                  <desc><name>ROSENKRANTZ (Baron de).</name><trait>
+                                                  <p>— 24, avenue de Saxe.</p>
+                                                  </trait></desc>
+                                                  <item n="205"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i205"
+                                                  ><num>205</num><title>— Le Christ.</title></item>
+                                                  <item n="206"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i206"
+                                                  ><num>206</num><title>— La Vision de la
+                                                  Vierge.</title></item>
+                                                  <item n="207"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i207"
+                                                  ><num>207</num><title>— Psyché</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="208"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i208"
+                                                  ><num>208</num><title>— Près du feu</title>
+                                                  <desc>(pastel).</desc></item>
+                                                  <item n="209"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i209"
+                                                  ><num>209</num><title>— La Fuite en Egypte
+                                                  </title><desc>(esquisse).</desc></item>
+                                                  <item n="210"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i210"
+                                                  ><num>210</num><title>— L’Annonciation aux
+                                                  bergères</title> <desc>(esquisse).</desc></item>
+                                                  <item n="211"
+                                                  xml:id="CatSalonRoseCroix_1893_e55_i211"
+                                                  ><num>211</num><title>— L’Adoration des bergers</title>
+                                                  <desc>(esquisse).</desc></item>
+                                                  </entry>
+                                                  <entry n="56" xml:id="CatSalonRoseCroix_1893_e56"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f24/full/full/0/default.jpg">
+                                                  <desc><name>SAINVILLE (Emmanuel de).</name><trait>
+                                                  <p>— 56, rue N.-D.-de-Lorette.</p>
+                                                  </trait></desc>
+                                                  <item n="212"
+                                                  xml:id="CatSalonRoseCroix_1893_e56_i212"
+                                                  ><num>212</num><title>—
+                                                  Kypris-Laksmi.</title></item>
+                                                  <item n="213"
+                                                  xml:id="CatSalonRoseCroix_1893_e56_i213"
+                                                  ><num>213</num><title>—
+                                                  Mélancolie.</title></item>
+                                                  </entry>
+                                                  <entry n="57" xml:id="CatSalonRoseCroix_1893_e57"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f24/full/full/0/default.jpg">
+                                                  <desc><name>SAVINE.</name><trait>
+                                                  <p>— 43, rue Victor-Masse¬</p>
+                                                  </trait></desc>
+                                                  <item n="214"
+                                                  xml:id="CatSalonRoseCroix_1893_e57_i214"
+                                                  ><num>214</num><title>— Rieur</title> <desc>(bois
+                                                  acajou).</desc></item>
+                                                  <item n="215"
+                                                  xml:id="CatSalonRoseCroix_1893_e57_i215"
+                                                  ><num>215</num><title>— Florentin</title> <desc>(Terre cuite
+                                                  originale).</desc></item>
+                                                  <item n="216"
+                                                  xml:id="CatSalonRoseCroix_1893_e57_i216"
+                                                  ><num>216</num><title>— Condottiere</title> <desc>(terre cuite
+                                                  originale).</desc></item>
+                                                  <item n="217"
+                                                  xml:id="CatSalonRoseCroix_1893_e57_i217"
+                                                  ><num>217</num><title>Moine </title><desc>(terre cuite
+                                                  originale).</desc></item>
+                                                  <item n="218"
+                                                  xml:id="CatSalonRoseCroix_1893_e57_i218"
+                                                  ><num>218</num><title>— Florentin </title><desc>(terre cuite
+                                                  originale).</desc></item>
+                                                  </entry>
+                                                  <entry n="58" xml:id="CatSalonRoseCroix_1893_e58"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f24/full/full/0/default.jpg">
+                                                  <desc><name>SEON (Alexandre).</name><trait>
+                                                  <p>— 81, rue de l’Abbé-Groult, Paris (Vaugirard).</p>
+                                                  </trait></desc>
+                                                  <item n="219"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i219"
+                                                  ><num>219</num><title>— La Vierge.</title></item>
+                                                  <item n="220"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i220"
+                                                  ><num>220</num><title>— Les
+                                                  Ephèbes.</title></item>
+                                                  <item n="221"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i221"
+                                                  ><num>221</num><title>— Les Mères.</title></item>
+                                                                        <item n="222"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i222"
+                                                                                              ><num>222</num><title>— Les Vierges</title></item> 
+                                                                        <item n="223"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i223"
+                                                                                              ><num>223</num><title>— Les Veillards</title></item>
+                                                                        <item n="224"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i224"
+                                                                                              ><num>224</num><title>— Fleurs et Fruits</title></item>
+                                                                        <item n="225"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i225"
+                                                                                              ><num>225</num><title>— Figures sur fond or (La Chasse)</title></item>
+                                                                        <item n="226"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i226"
+                                                                                              ><num>226</num><title>— " " " " (La Pèche)</title></item>
+                                                                        <item n="227"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i227"
+                                                                                              ><num>227</num><title>— Muse mystique</title></item>
+                                                                        <item n="228"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i228"
+                                                                                              ><num>228</num><title>— Le Repos</title></item>
+                                                                        <item n="229"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i229"
+                                                                                              ><num>229</num><title>— La Fin des Dieux</title><desc>A M.</desc></item>
+                                                                        <item n="230"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i230"
+                                                                                              ><num>230</num><title>— L'Aveu</title></item>
+                                                                        <item n="231"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i231"
+                                                                                              ><num>231</num><title>— Désespoir de la Chimère</title></item>
+                                                                        <item n="232"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i232"
+                                                                                              ><num>232</num><title>— Sin</title><desc>Frontispice de Typhonia</desc></item>
+                                                                        <item n="233"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i233"
+                                                                                              ><num>233</num><title>— Endormie</title></item>
+                                                                        <item n="234"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i234"
+                                                                                              ><num>234</num><title>— La Province</title></item>
+                                                                        <item n="235"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i235"
+                                                                                              ><num>235</num><title>— Baigneuse</title></item>
+                                                                        <item n="236"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i236"
+                                                                                              ><num>236</num><title>— Femme aux pâquerettes</title></item>
+                                                                        <item n="237"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i237"
+                                                                                              ><num>237</num><title>— Paysage</title></item>
+                                                                        <item n="238"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i238"
+                                                                                              ><num>238</num><title>— Carton (Figure de l'Hiver)</title></item>
+                                                                        <item n="239"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i239"
+                                                                                              ><num>239</num><title>— Cartons: Femmes aux Couronnes</title></item>
+                                                                        <item n="240"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i240"
+                                                                                              ><num>240</num><title>— Nu pour "la Mère"</title></item>
+                                                                        <item n="241"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i241"
+                                                                                              ><num>241</num><title>— Nu pour "Jeune Fille"</title></item>
+                                                                        <item n="242"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i242"
+                                                                                              ><num>242</num><title>— Etude "le Blessé"</title></item>
+                                                                        <item n="243"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i243"
+                                                                                              ><num>243</num><title>— " Enfant aux Fruits</title></item>
+                                                                        <item n="244"
+                                                                                              xml:id="CatSalonRoseCroix_1893_e58_i244"
+                                                                                              ><num>244</num><title>— Profil de Blonde</title></item>
+                                                                        
+                                                                        <item n="245"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i245"
+                                                  ><num>245</num><title>— Fierté</title>
+                                                  <desc>(tête).</desc></item>
+                                                  <item n="246"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i246"
+                                                  ><num>246</num><title>— Sommeil.</title></item>
+                                                  <item n="247"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i247"
+                                                  ><num>247</num><title>— Nu de « Douleur,
+                                                  ».</title></item>
+                                                  <item n="248"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i248"
+                                                  ><num>248</num><title>— Miss aux cheveux
+                                                  dénoués.</title></item>
+                                                  <item n="254"
+                                                  xml:id="CatSalonRoseCroix_1893_e58_i254"
+                                                  ><num>254</num><title>— Jeune
+                                                  Femme.</title></item>
+                                                  </entry>
+                                                  <entry n="59" xml:id="CatSalonRoseCroix_1893_e59"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f26/full/full/0/default.jpg">
+                                                  <desc><name>TTHOLENAAR.</name><trait>
+                                                  <p>— 24, avenue de Saxe.</p>
+                                                  </trait></desc>
+                                                  <item n="255"
+                                                  xml:id="CatSalonRoseCroix_1893_e59_i255"
+                                                  ><num>255</num><title>— Le Soir</title>
+                                                  <desc>(marbre).</desc></item>
+                                                  <item n="256"
+                                                  xml:id="CatSalonRoseCroix_1893_e59_i256"
+                                                  ><num>256</num><title>— L'squisse</title>
+                                                  <desc>(bronze).</desc></item>
+                                                  </entry>
+                                                  <entry n="60" xml:id="CatSalonRoseCroix_1893_e60"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f26/full/full/0/default.jpg">
+                                                  <desc><name>VASSELOT (Marquest de).</name><trait>
+                                                  <p>— 7, rue Talma.</p>
+                                                  </trait></desc>
+                                                  <item n="257"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i257"
+                                                  ><num>257</num><title>— Balzac </title><desc>(buste fait en
+                                                  1863, exécuté en marbre pour
+                                                  la Comédie-Française et pour le
+                                                  musée de Tours).</desc></item>
+                                                  <item n="258"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i258"
+                                                  ><num>258</num><title>— Balzac </title><desc>âgé de 30 ans, pour Mme Duhamel, née de Surville</desc>
+                                                  </item>
+                                                  <item n="259"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i259"
+                                                  ><num>259</num><title>— Balzac</title><desc> (esquisse pour un
+                                                  monument du Palais-Royal, 1887)</desc></item>
+                                                  
+                                                  <item n="260"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i260"
+                                                  ><num>260</num><title>— Balzac</title><desc>1871</desc></item>
+                                                 
+                                                  <item n="261"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i261"
+                                                  ><num>261</num><title>— Balzac ; La Comédie
+                                                  humaine</title><desc> (bas-relief de 103
+                                                  personnages).</desc></item>
+                                                  <item n="262"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i262"
+                                                  ><num>262</num><title>— Super vitia pudor</title><desc>
+                                                  (statuette bronze).</desc></item>
+                                                  <item n="263"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i263"
+                                                  ><num>263</num><title>— Super venustatem spiritus</title>
+                                                  <desc>(statuette bronze).</desc></item>
+                                                  <item n="264"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i264"
+                                                  ><num>264</num><title>— Ostensoir des religions</title><desc>
+                                                  (esquisso).</desc></item>
+                                                  <item n="265"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i265"
+                                                  ><num>265</num><title>— Evette</title> <desc>(buste cire,
+                                                  trouvé à Passy en 1895).</desc></item>
+                                                  <item n="266"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i266"
+                                                  ><num>266</num><title>— Wagner</title><desc> (médaillon
+                                                  cire).</desc></item>
+                                                  <item n="267"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i267"
+                                                  ><num>267</num><title>— Musset</title><desc>(esquisse de
+                                                  monument.</desc></item>
+                                                  <item n="268"
+                                                  xml:id="CatSalonRoseCroix_1893_e60_i268"
+                                                  ><num>268</num><title>— J.-J. Rousseau</title><desc>(statuette
+                                                  bronze, cire perdue, fondue au
+                                                  Japon.</desc></item>
+                                                  </entry>
+                                                  <entry n="61" xml:id="CatSalonRoseCroix_1893_e61"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f27/full/full/0/default.jpg">
+                                                  <desc><name>WALGREN.</name><trait>
+                                                  <p>— 14, avenue du Maine.</p>
+                                                  </trait></desc>
+                                                  <item n="269"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i269"
+                                                  ><num>269</num><title>— Mourir et renaître</title><desc>
+                                                  (bronze).</desc></item>
+                                                  <item n="270"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i270"
+                                                  ><num>270</num><title>— Devant l'église</title><desc>(bronze),
+                                                  appartient à M. Poterel.</desc></item>
+                                                  <item n="271"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i271"
+                                                  ><num>271</num><title>— Déluge</title><desc>
+                                                  (pierre).</desc></item>
+                                                  <item n="272"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i272"
+                                                  ><num>272</num><title>— Simplicité
+                                                  </title><desc>(bronze).</desc></item>
+                                                  <item n="273"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i273"
+                                                  ><num>273</num><title>— Douleur
+                                                  </title><desc>(pierre).</desc></item>
+                                                  <item n="274"
+                                                  xml:id="CatSalonRoseCroix_1893_e61_i274"
+                                                  ><num>274</num><title>— Déluge
+                                                  </title><desc>(pierre).</desc></item>
+                                                  </entry>
+                                                  <entry n="62" xml:id="CatSalonRoseCroix_1893_e62"
+                                                  source="https://gallica.bnf.fr/iiif/ark:/12148/bpt6k54703109/f27/full/full/0/default.jpg">
+                                                  <desc><name>ZILCKEN (Ph.).</name><trait>
+                                                  <p>— Helene-Villa, La Haye.</p>
+                                                  </trait></desc>
+                                                  <item n="275"
+                                                  xml:id="CatSalonRoseCroix_1893_e62_i275"
+                                                  ><num>275</num><title>— Le poète Paul Verlaine,</title><desc>
+                                                  d’après un croquis de Jax Toorop
+                                                  (pointe sèche).</desc></item>
+                                                  </entry>
+                                                  </list>
+                                            </body>
+                      </text>
+</TEI>
