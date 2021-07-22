@@ -9,11 +9,10 @@ Those files were created thanks to this pipeline:
 <img src="./pipeline.png">
   </p>
 
-1. Segmentation and transcription were done in eScriptorium, using models trained with Kraken on datasets from [here](https://github.com/Juliettejns/cataloguesSegmentationOCR) and [here](https://github.com/Juliettejns/cataloguesOCR).
-2. Python data extraction which transformed the ALTO4 files extracted from eScriptorium to TEI files is accessible [here](https://github.com/Juliettejns/extractionCatalogs).
-3. XSLT Transformation Sheet which transformed the TEI file into csv is accessible in the repository.
+Segmentation and transcription were done in eScriptorium, using models trained with Kraken on datasets from [here](https://github.com/Juliettejns/cataloguesSegmentationOCR) and [here](https://github.com/Juliettejns/cataloguesOCR).<br/>
+Python data extraction which transformed the ALTO4 files extracted from eScriptorium to TEI files is accessible [here](https://github.com/Juliettejns/extractionCatalogs).
 
-Manual correction were done between each step of the pipeline.
+Manual correction is done between each step of the pipeline.
 <br/>Since the Layout analysis has been corrected for each catalogs, ALTO4 files extracted from eScriptorium can then be used to train a more efficient segmentation model.
 
 ## TEI files
