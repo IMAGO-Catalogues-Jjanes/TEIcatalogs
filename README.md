@@ -19,6 +19,9 @@ Manual correction is done between each step of the pipeline.
 
 The TEI files were built in order to stick to the [ODD](https://github.com/carolinecorbieres/ArtlasCatalogues/blob/master/5_ImproveGROBIDoutput/ODD/ODD_VisualContagions.xml) done by Caroline Corbières.
 
+## Repository
+This repository presents, for each catalog, images, alto4 files extracted from eScriptorium, TEI and csv file.
+
 ## Credits
 This repository is developed by Juliette Janes, intern of the [Artl@s](https://artlas.huma-num.fr/fr/) project, with the help of Simon Gabay under the supervision of Béatrice Joyeux-Prunel.
 
