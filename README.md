@@ -15,8 +15,6 @@ Python data extraction which transformed the ALTO4 files extracted from eScripto
 Manual correction is done between each step of the pipeline.
 <br/>Since the Layout analysis has been corrected for each catalogs, ALTO4 files extracted from eScriptorium can then be used to train a more efficient segmentation model.
 
-## TEI files
-
 The TEI files were built in order to stick to the [ODD](https://github.com/carolinecorbieres/ArtlasCatalogues/blob/master/5_ImproveGROBIDoutput/ODD/ODD_VisualContagions.xml) done by Caroline Corbières.
 
 ## Repository
