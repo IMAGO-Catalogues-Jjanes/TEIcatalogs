@@ -1,4 +1,4 @@
-# TEIcatalogs
+# TEI Catalogs Production
 
 This repository contains TEI files of 19th and 20th exhibition catalogs. 
 
