@@ -1,73 +1,70 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-model href="../../ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../../ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-stylesheet type="text/css" href="../../affichage_TEI.css"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CatSalonRefuses_1863">
                             <teiHeader>
                                                   <fileDesc>
-                                                  <titleStmt>
-                                                  <title>Salons des artistes refusés. Catalogue des
-                                                  oeuvres exposés</title>
-                                                  <editor role="metadata"><persName>Juliette
-                                                  Janes</persName></editor>
-                                                  <editor role="data"><persName>Juliette
-                                                  Janes</persName></editor>
-                                                  </titleStmt>
-                                                  <publicationStmt>
-                                                  <publisher><name>VISUAL CONTAGIONS</name><persName
-                                                  type="director">Béatrice
-                                                  Joyeux-Prunel</persName><orgName>UNIGE</orgName><address>
-                                                  <addrLine>5 rue des Battoirs 7</addrLine>
-                                                  <postCode>1205</postCode>
-                                                  <settlement>Genève</settlement>
-                                                  </address></publisher>
-                                                  <date when="2021"/>
-                                                  <availability>
-                                                  <licence
-                                                  target="https://creativecommons.org/licenses/by/4.0/"
-                                                  >CC-BY</licence>
-                                                  
-                                                  </availability>
-                                                  </publicationStmt>
-                                                  <sourceDesc>
-                                                        <bibl type="exhibition_catalog">
-                                                              <title>Catalogue du Salon des Artistes Refusés</title>
-                                                              <author>Salon des Refusés</author>
-                                                              <publisher/>
-                                                              <pubPlace>Paris</pubPlace>
-                                                              <date>1863</date>
-                                                              <relatedItem>
-                                                                    <msDesc>
-                                                                          <msIdentifier>
-                                                                                <repository>Bibliothèque nationale de
-                                                                                      France</repository>
-                                                                          </msIdentifier>
-                                                                          <additional>
-                                                                                <surrogates><ref
-                                                                                      facs="https://gallica.bnf.fr/ark:/12148/bpt6k114147v"
-                                                                                /><name role="digitisation">Bibliothèque nationale
-                                                                                      de France</name></surrogates>
-                                                                          </additional>
-                                                                    </msDesc>
-                                                                    
-                                                              </relatedItem>
-                                                              <extent>77 p.</extent>
-                                                        </bibl>
-                                                        <listEvent>
-                                                              <event type="exhibition" subtype="fixed"
-                                                                    from="1863-05-15" to="1863-06-30">
-                                                                    <head>Premier salon des refusés</head>
-                                                                    <head type="salon">Salon des refusés</head>
-                                                                    <desc>
-                                                                          <listPlace>
-                                                                                <place>
-                                                                                      <label>Palais des Champs-Elysées, annexe du palais de l'Industrie</label>
-                                                                                </place>
-                                                                          </listPlace>
-                                                                    </desc>
-                                                              </event>
-                                                        </listEvent>
-                                                  </sourceDesc>
-                                                  </fileDesc>
+                  <titleStmt>
+                        <title>Salons des artistes refusés. Catalogue des oeuvres exposés</title>
+                        <editor role="metadata"><persName>Juliette
+                              Janes</persName></editor>
+                       
+                        <editor role="data"><persName>Juliette Janes</persName></editor>
+                  </titleStmt>
+                  <publicationStmt>
+                        <publisher><name>VISUAL CONTAGIONS</name><persName type="director">Béatrice
+                                    Joyeux-Prunel</persName><orgName>UNIGE</orgName><address>
+                                    <addrLine>5 rue des Battoirs 7</addrLine>
+                                    <postCode>1205</postCode>
+                                    <settlement>Genève</settlement>
+                              </address></publisher>
+                        <date when="2021"/>
+                        <availability>
+                              <licence target="https://creativecommons.org/licenses/by/4.0/"
+                                    >CC-BY</licence>
+                        </availability>
+                  </publicationStmt>
+                  <sourceDesc>
+                        <bibl type="exhibition_catalog">
+                              <title>Catalogue du Salon des Artistes Refusés</title>
+                              <author>Salon des Refusés</author>
+                              <publisher/>
+                              <pubPlace>Paris</pubPlace>
+                              <date>1863</date>
+                              <relatedItem>
+                                    <msDesc>
+                                          <msIdentifier>
+                                                <repository>Bibliothèque nationale de
+                                                  France</repository>
+                                          </msIdentifier>
+                                          <additional>
+                                                <surrogates><ref
+                                                  facs="https://gallica.bnf.fr/ark:/12148/bpt6k114147v"
+                                                  /><name role="digitisation">Bibliothèque nationale
+                                                  de France</name></surrogates>
+                                          </additional>
+                                    </msDesc>
+                              </relatedItem>
+                              <extent>77 p.</extent>
+                        </bibl>
+                        <listEvent>
+                              <event type="exhibition" subtype="fixed" from="1863-05-15"
+                                    to="1863-06-30">
+                                    <head>Premier salon des refusés</head>
+                                    <head type="salon">Salon des refusés</head>
+                                    <desc>
+                                          <listPlace>
+                                                <place>
+                                                  <label>Palais des Champs-Elysées, annexe du palais
+                                                  de l'Industrie</label>
+                                                </place>
+                                          </listPlace>
+                                    </desc>
+                              </event>
+                        </listEvent>
+                  </sourceDesc>
+            </fileDesc>
                                                   <profileDesc>
                                                   <langUsage>
                                                   <language ident="fr"/>

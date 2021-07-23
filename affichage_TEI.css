@@ -1,0 +1,147 @@
+/* Feuille de style CSS pour la mise en forme des fichiers de sortie catalogues */
+
+/* TEI */
+
+TEI:before{
+    content:"Fichier TEI : " oxy_textfield(edit, '@xml:id', columns, 20);
+    visibility:-oxy-collapse-text;
+    display:block;
+    padding-bottom:0em;
+}
+
+TEI{
+background-color:#FFFFFF;
+-oxy-foldable:true;
+-oxy-not-foldable-child:title;
+font-family:calibri, helvetica, sans-serif;
+
+}
+
+/* TEI teiHeader: general metadata */
+TEI teiHeader:before{
+content:"Descriptif du catalogue : ";
+font-family:centuryGothic, helvetica, sans-serif;
+color:#000000;
+}
+/* TEI teiHeader: fileDesc metadata */
+
+TEI teiHeader fileDesc:before{
+content:"Description bibliographique du fichier";
+display:block;
+color:#000000;
+font-family:calibri, helvetica, sans-serif;
+font-weight:bold;
+}
+TEI teiHeader fileDesc{
+-oxy-foldable:true; 
+}
+
+TEI teiHeader fileDesc titleStmt title{
+content:"Titre du catalogue: "oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader fileDesc titleStmt editor persName{
+    content:"Editeur du fichier: "oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader fileDesc publisher:before{
+content:"Institution d'édition"
+}
+TEI teiHeader sourceDesc:before{
+    content:"Informations bibliographiques sur le fichier:"
+}
+TEI teiHeader sourceDesc bibl title{
+    content:"Titre" oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader sourceDesc bibl author{
+    content:"Auteur" oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader sourceDesc bibl publisher{
+    content:"Editeur"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader sourceDesc bibl pubPlace{
+    content:"Lieu de publication"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader sourceDesc bibl date{
+    content:"Date de publication"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+TEI teiHeader sourceDesc bibl relatedItem msDesc msIdentifier repository{
+    content:"Lieu de dépôt:"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+ ref{
+    content:"url:" oxy_textfield(edit, '@facs', columns, 20);
+    visibility:-oxy-collapse-text;
+    display:block;
+    padding-bottom:0em;
+}
+entry:before{
+    content:"Entrée numéro "oxy_textfield(edit, '@n', columns, 5) " identifiant " oxy_textfield(edit, '@xml:id', columns, 20);
+    visibility:-oxy-collapse-text;
+    display:block;
+    padding-bottom:0em;
+}
+
+entry desc name{
+    content:"Nom de l'artiste :"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+entry desc trait p{
+    content:"Informations biographiques: " oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+entry item{
+    content:"Oeuvre numéro "oxy_textfield(edit, '@n', columns, 5) " identifiant " oxy_textfield(edit, '@xml:id', columns, 20);
+    visibility:-oxy-collapse-text;
+    display:block;
+    padding-bottom:0em;
+}
+entry item title{
+    content:"Titre: " oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
+entry item desc{
+    content:"Informations complémentaires"oxy_textfield(columns, 70, edit, "#text");
+visibility:-oxy-collapse-text;
+display:block;
+padding-bottom:0em;
+padding-top:10px;
+}
