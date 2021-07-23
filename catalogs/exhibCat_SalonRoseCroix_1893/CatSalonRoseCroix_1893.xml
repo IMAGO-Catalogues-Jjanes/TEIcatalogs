@@ -79,10 +79,12 @@
                                                   works. All text preceding or succeeding the list
                                                   of documents is not reproduced below.</p>
                                                   </samplingDecl>
+                                              <appInfo>
                                                   <application version="3.0" ident="kraken" when="2021">
                                                         <label>kraken</label>
                                                         <ptr target="https://github.com/mittagessen/kraken"/>
                                                   </application>
+                                              </appInfo>
                                             </encodingDesc>
                                             <revisionDesc/>
                       </teiHeader>
