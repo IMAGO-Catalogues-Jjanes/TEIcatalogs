@@ -22,7 +22,7 @@ This repository presents, for each catalog, images, alto4 files extracted from e
 The css file `àffichage_TEI.css` allows you to correct the TEI files more easily.
 
 ## Credits
-This repository is developed by Juliette Janes, intern of the [Artl@s](https://artlas.huma-num.fr/fr/) project, with the help of Simon Gabay under the supervision of Béatrice Joyeux-Prunel.
+Documents have been encoded by Juliette Janes, intern of the [Artl@s](https://artlas.huma-num.fr/fr/) project, with the help of Simon Gabay under the supervision of Béatrice Joyeux-Prunel.
 
 ## Licence
 Images from catalogs published prior 1920 and transcriptions are CC-BY. </br>
