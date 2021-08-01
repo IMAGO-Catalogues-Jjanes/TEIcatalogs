@@ -8,6 +8,7 @@ authors:
   given-names: "Simon"
   orcid: "https://orcid.org/0000-0001-9094-4475"
 title: "TEICatalogs: Corpus of encoded 19th and 20th catalogs"
+version: 1.0
 doi: none
 date-released: 2031-07-30
 url: "https://github.com/Juliettejns/TEIcatalogs"
