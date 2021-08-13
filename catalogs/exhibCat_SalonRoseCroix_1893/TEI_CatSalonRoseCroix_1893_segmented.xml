@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+<teiHeader xmlns="http://www.tei-c.org/ns/1.0">
+   <fileDesc>
+      <titleStmt>
+         <title>Catalogue du Salon de la Rose Croix: geste
+                                                  esthétique</title>
+         <editor role="metadata">
+            <persName instant="false">Juliette
+                                                  Janes</persName>
+         </editor>
+         <editor role="data">
+            <persName instant="false">Juliette
+                                                  Janes</persName>
+         </editor>
+      </titleStmt>
+      <publicationStmt>
+         <publisher>
+            <name instant="false">VISUAL CONTAGIONS</name>
+            <persName type="director" instant="false">Béatrice
+                                                  Joyeux-Prunel</persName>
+            <orgName instant="false">UNIGE</orgName>
+            <address>
+               <addrLine>5 rue des Battoirs 7</addrLine>
+               <postCode>1205</postCode>
+               <settlement>Genève</settlement>
+            </address>
+         </publisher>
+         <date when="2021" instant="false"/>
+         <availability default="false">
+            <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+            <licence target="https://gallica.bnf.fr/html/und/conditions-dutilisation-des-contenus-de-gallica"/>
+         </availability>
+      </publicationStmt>
+      <sourceDesc default="false">
+         <bibl type="exhibition_catalog" default="false" status="draft">
+            <title>Catalogue du Salon de la Rose Croix: geste
+                                                  esthétique</title>
+            <author>Salon de la Rose Croix</author>
+            <publisher>Librairie Nelsson</publisher>
+            <pubPlace>Paris</pubPlace>
+            <date instant="false">1893</date>
+            <relatedItem>
+               <msDesc status="draft">
+                  <msIdentifier>
+                     <repository>Bibliothèque nationale de
+                                                  France</repository>
+                  </msIdentifier>
+                  <additional>
+                     <surrogates>
+                        <ref facs="http://catalogue.bnf.fr/ark:/12148/cb32738012d"/>
+                        <name role="digitisation" instant="false">Bibliothèque nationale
+                                                  de France</name>
+                     </surrogates>
+                  </additional>
+               </msDesc>
+            </relatedItem>
+            <extent>217 p.</extent>
+         </bibl>
+         <listEvent default="false">
+            <event type="exhibition"
+                   subtype="fixed"
+                   from="1893-03-27"
+                   to="1893-04-30"
+                   instant="false">
+               <head>Deuxième Salon de la Rose Croix</head>
+               <head type="salon">Salon de la Rose Croix</head>
+               <desc>
+                  <listPlace default="false">
+                     <place instant="false">
+                        <label>Dôme du champ de Mars, Paris</label>
+                     </place>
+                  </listPlace>
+               </desc>
+            </event>
+         </listEvent>
+      </sourceDesc>
+   </fileDesc>
+   <profileDesc/>
+   <encodingDesc>
+      <samplingDecl default="false">
+         <p part="N">This electronic version of the catalog only
+                                                  reproduces the entries that sourceond to exhibited
+                                                  works. All text preceding or succeeding the list
+                                                  of documents is not reproduced below.</p>
+      </samplingDecl>
+      <appInfo>
+         <application version="3.0" ident="kraken" when="2021">
+            <label>kraken</label>
+            <ptr target="https://github.com/mittagessen/kraken"/>
+         </application>
+      </appInfo>
+   </encodingDesc>
+</teiHeader>
+<text xmlns:tei="http://www.tei-c.org/ns/1.0">
+<body><p>Catalogue du Salon de la Rose Croix: geste
+                                                  esthétiqueCatalogue du Salon de la Rose Croix: geste
+                                                  esthétique<seg n="1" xml:id="s1">— Affiche de la seconde geste
+                                                  esthétique.</seg>
+      <seg n="2" xml:id="s2">— Rêverie.</seg>
+      <seg n="3" xml:id="s3">— La
+                                                  Sainte-Famille.</seg>
+      <seg n="4" xml:id="s4">— Le Rêve de sainte
+                                                  Cécile.</seg>
+      <seg n="5" xml:id="s5">Tête de Femme.</seg>
+      <seg n="6" xml:id="s6">— De Dofundis</seg>
+      <seg n="7" xml:id="s7">— Etude de
+                                                  blonde.</seg>
+      <seg n="8" xml:id="s8">— Patricienne.</seg>
+      <seg n="9" xml:id="s9">— Enigmatique.</seg>
+      <seg n="10" xml:id="s10">— Mireille.</seg>
+      <seg n="11" xml:id="s11">— Hérodiade.</seg>
+      <seg n="12" xml:id="s12">— Beauté de
+                                                  jadis.</seg>
+      <seg n="13" xml:id="s13">— Lironie
+                                                  seruelle.</seg>
+      <seg n="14" xml:id="s14">— Le Dauphin.</seg>
+      <seg n="15" xml:id="s15">— Portrait
+                                                  d’âme.</seg>
+      <seg n="16" xml:id="s16">— Princesse
+                                                  Lombarde.</seg>
+      <seg n="17" xml:id="s17">— Pestolet.</seg>
+      <seg n="18" xml:id="s18">— D’après Lord
+                                                  Byron.</seg>
+      <seg n="19" xml:id="s19">— Etude
+                                                  lombarde.</seg>
+      <seg n="20" xml:id="s20">— Etude pour
+                                                  Ariane.</seg>
+      <seg n="21" xml:id="s21">— Sourire
+                                                  Jupitérien.</seg>
+      <seg n="22" xml:id="s22">— Léande.</seg>
+      <seg n="23" xml:id="s23">— Etudes.</seg>
+      <seg n="24" xml:id="s24">— Page.</seg>
+      <seg n="25" xml:id="s25">— Etude
+                                                  Florentine</seg>
+      <seg n="26" xml:id="s26">— Sourire.</seg>
+      <seg n="27" xml:id="s27">— Hébé.</seg>
+      <seg n="28" xml:id="s28">— Spasine.</seg>
+      <seg n="29" xml:id="s29">— Trio</seg>
+      <seg n="30" xml:id="s30">— Oudine</seg>
+      <seg n="31" xml:id="s31">— Bayreuth: La Terrasse du
+                                                  Ghéâtre</seg>
+      <seg n="32" xml:id="s32">— Bayreuth: Pendant la
+                                                  représentation</seg>
+      <seg n="33" xml:id="s33">— Virginale dolence</seg>
+      <seg n="34" xml:id="s34">— Frappes et l’on vous
+                                                  ouvrira</seg>
+      <seg n="35" xml:id="s35">— Sacrifice</seg>
+      <seg n="36" xml:id="s36">— Esquisses
+                                                  décoratives</seg>
+      <seg n="37" xml:id="s37">— Brunhilde.</seg>
+      <seg n="38" xml:id="s38">— Mort des
+                                                  Preux.</seg>
+      <seg n="39" xml:id="s39">— Mort de Roland </seg>
+      <seg n="40" xml:id="s40">— LAnge des
+                                                  Grèves.</seg>
+      <seg n="41" xml:id="s41">— Vision astrale</seg>
+      <seg n="42" xml:id="s42">— Projets de
+                                                  décoration</seg>
+      <seg n="43" xml:id="s43">Voix de
+                                                  l'Au-Delà</seg>
+      <seg n="44" xml:id="s44">— Spiritualité
+                                                  (tête).</seg>
+      <seg n="45" xml:id="s45">— Illusion.</seg>
+      <seg n="46" xml:id="s46">— Tanit</seg>
+      <seg n="47" xml:id="s47">— L’Illusion.</seg>
+      <seg n="48" xml:id="s48">— L’Inspiration
+                                                  musicale</seg>
+      <seg n="49-60" xml:id="s49-60"> Série de douze dessins pour
+                                                  illustrer les poèmes philosophiques de Victor
+                                                  Hugo.</seg>
+      <seg n="61" xml:id="s61">Deux dessins pour illustrer le «
+                                                  Pilgrimm's Progress by Bunyam ».</seg>
+      <seg n="63" xml:id="s63">— Chant du soir</seg>
+      <seg n="64" xml:id="s64">— Fleur des bois</seg>
+      <seg n="65" xml:id="s65">— Mélancolie</seg>
+      <seg n="66" xml:id="s66">— La Jeunesse</seg>
+      <seg n="67" xml:id="s67">— Réverie mystique
+                                                  </seg>
+      <seg n="68" xml:id="s68">— Eden
+                                                  </seg>
+      <seg n="69" xml:id="s69">— Pietà.</seg>
+      <seg n="70" xml:id="s70">— Impéria.</seg>
+      <seg n="71" xml:id="s71">— Elégia.</seg>
+      <seg n="72" xml:id="s72">— Symbolisation de la Chair
+                                                  et de l’Esprit¬</seg>
+      <seg n="73" xml:id="s73">— Vers
+                                                  l’Inconnu.</seg>
+      <seg n="74" xml:id="s74">— L’Homme du
+                                                  glaive.</seg>
+      <seg n="75" xml:id="s75">— Mystériosa.</seg>
+      <seg n="76" xml:id="s76">—
+                                                  L’Annonciateur.</seg>
+      <seg n="77" xml:id="s77">— Le Murmure
+                                                  profane.</seg>
+      <seg n="78" xml:id="s78">— Portait du Sar
+                                                  Peladan,</seg>
+      <seg n="79" xml:id="s79">— Ronde des
+                                                  Fées.</seg>
+      <seg n="80" xml:id="s80">— La Vierge de
+                                                  l’Apocalypse.</seg>
+      <seg n="81" xml:id="s81">— La Poèsie
+                                                  Lyrique.</seg>
+      <seg n="82" xml:id="s82">— La Fin du
+                                                  Ramadam.</seg>
+      <seg n="83" xml:id="s83">— Richard Wagner</seg>
+      <seg n="84" xml:id="s84">— Wagner</seg>
+      <seg n="86" xml:id="s86">— La Présentation aux
+                                                  étoiles,</seg>
+      <seg n="87" xml:id="s87">— Prison.</seg>
+      <seg n="88" xml:id="s88">— Méditation.</seg>
+      <seg n="89" xml:id="s89">— Pensée.</seg>
+      <seg n="90" xml:id="s90">Fleur du mal.</seg>
+      <seg n="91" xml:id="s91"> Feux follets.</seg>
+      <seg n="92" xml:id="s92">— Vision.</seg>
+      <seg n="93" xml:id="s93">Décoration.</seg>
+      <seg n="94" xml:id="s94">— La Résurrectin de
+                                                  Lazare</seg>
+      <seg n="95" xml:id="s95">— L'Étang
+                                                  calme</seg>
+      <seg n="96" xml:id="s96">Celle qui
+                                                  songe.</seg>
+      <seg n="97" xml:id="s97">— Lecture
+                                                  pieuse.</seg>
+      <seg n="98" xml:id="s98">— Le Poète suit sa
+                                                  Muse.</seg>
+      <seg n="99" xml:id="s99">— Enfer, Purgatoire,
+                                                  Paradis</seg>
+      <seg n="100" xml:id="s100">— Chasteté qui passe </seg>
+      <seg n="101" xml:id="s101">— La Guillaneu</seg>
+      <seg n="102" xml:id="s102">— Ma Mie Jehanne</seg>
+      <seg n="103" xml:id="s103">— Les litanies de ma
+                                                  Muse.</seg>
+      <seg n="104" xml:id="s104">— Vision</seg>
+      <seg n="105" xml:id="s105">— Mistral,</seg>
+      <seg n="106" xml:id="s106">—
+                                                  Contemplation.</seg>
+      <seg n="107" xml:id="s107">— Sainte Elisabeth ; le
+                                                  Miracle des Roses.</seg>
+      <seg n="108" xml:id="s108">— La Légende de Runstephan
+                                                  </seg>
+      <seg n="109" xml:id="s109">— Princesse</seg>
+      <seg n="110" xml:id="s110">— Dans le
+                                                  Parc.</seg>
+      <seg n="111" xml:id="s111">— Soir en
+                                                  Province.</seg>
+      <seg n="112" xml:id="s112">— Les Cinq
+                                                  Béguines.</seg>
+      <seg n="113" xml:id="s113">— Le Lys.</seg>
+      <seg n="114" xml:id="s114">— Parfums du
+                                                  Soir</seg>
+      <seg n="115" xml:id="s115">— Le Sphinx</seg>
+      <seg n="116" xml:id="s116">Charité.</seg>
+      <seg n="117" xml:id="s117">— La Nature victorieuse de
+                                                  l’Idée.</seg>
+      <seg n="118" xml:id="s118">— L lock my door upon
+                                                  myself</seg>
+      <seg n="119" xml:id="s119">— L’Offrande</seg>
+      <seg n="120" xml:id="s120">Victoria</seg>
+      <seg n="121" xml:id="s121">— Dessins pour une
+                                                  Sphinge.</seg>
+      <seg n="122" xml:id="s122">— Dessins pour
+                                                  Victoria.</seg>
+      <seg n="123" xml:id="s123">— L’Éternelle
+                                                  Gloire</seg>
+      <seg n="124" xml:id="s124">— La Première
+                                                  Relique.</seg>
+      <seg n="125" xml:id="s125">— Sainte
+                                                  Cécile</seg>
+      <seg n="126" xml:id="s126">— Sainte
+                                                  Madeleine.</seg>
+      <seg n="127" xml:id="s127">— L'Appel.</seg>
+      <seg n="128" xml:id="s128"> Cléopâtre</seg>
+      <seg n="129" xml:id="s129">— Communion mystique de
+                                                  sainte Madeleine</seg>
+      <seg n="130" xml:id="s130">— La Fuite en
+                                                  Egypte</seg>
+      <seg n="131" xml:id="s131">— Sainte Elisabeth</seg>
+      <seg n="132" xml:id="s132">— L'Étoile du
+                                                  Matin</seg>
+      <seg n="133" xml:id="s133">— Idylle.</seg>
+      <seg n="134" xml:id="s134">— Sainte Perpétue,
+                                                  martyre</seg>
+      <seg n="135" xml:id="s135">— Une Morte.</seg>
+      <seg n="136" xml:id="s136">— Le Silence.</seg>
+      <seg n="137" xml:id="s137">— La Source.</seg>
+      <seg n="138" xml:id="s138"> Cheval
+                                                  pâle.</seg>
+      <seg n="139" xml:id="s139">Esquisse.</seg>
+      <seg n="140" xml:id="s140">— L’age de la
+                                                  Foi.</seg>
+      <seg n="141" xml:id="s141">— Intuition.</seg>
+      <seg n="144" xml:id="s144">— La Fuite en
+                                                  Egyte.</seg>
+      <seg n="145" xml:id="s145">— LAnge à
+                                                  l’Etoile.</seg>
+      <seg n="146" xml:id="s146">— Les
+                                                  Apôtres.</seg>
+      <seg n="147" xml:id="s147">— Armoiries de l’Ordre
+                                                  laïque de le Rose Croix, du Temple et du
+                                                  Graal.Sceau de l’Ordre du Graal. Armoiries de
+                                                  l’Oudre du Graal.</seg>
+      <seg n="148" xml:id="s148">— Sceau du
+                                                  Grand-Maitre.</seg>
+      <seg n="149" xml:id="s149">— L'Amour vainqueur nargue
+                                                  la Sagesse.</seg>
+      <seg n="150" xml:id="s150">— Erato</seg>
+      <seg n="151" xml:id="s151">— L’Architecture
+                                                  </seg>
+      <seg n="152" xml:id="s152">— La Musique sacrée</seg>
+      <seg n="153" xml:id="s153">— Le Musique
+                                                  profane.</seg>
+      <seg n="154" xml:id="s154">— Diane
+                                                  invulnérable</seg>
+      <seg n="155" xml:id="s155">— La Terre
+                                                  nouricière</seg>
+      <seg n="156" xml:id="s156">Victoire</seg>
+      <seg n="157" xml:id="s157">— La Récolte des figues
+                                                  </seg>
+      <seg n="158" xml:id="s158">Vénus
+                                                  Victorieuse.</seg>
+      <seg n="159" xml:id="s159">— Junon se venge de
+                                                  Vénus</seg>
+      <seg n="160" xml:id="s160">La Musique.</seg>
+      <seg n="161" xml:id="s161">Ce qui a été sera</seg>
+      <seg n="162" xml:id="s162">— Les Anges semant des
+                                                  Etoiles.</seg>
+      <seg n="163" xml:id="s163">Une douloureuse
+                                                  Aurore</seg>
+      <seg n="164" xml:id="s164">— Saint Thomas
+                                                  d’Aquin</seg>
+      <seg n="165" xml:id="s165">— Prière du Matin</seg>
+      <seg n="166" xml:id="s166">— Moise.</seg>
+      <seg n="167" xml:id="s167">— Vision.</seg>
+      <seg n="168" xml:id="s168">— Harmonie
+                                                  d’Automne.</seg>
+      <seg n="169" xml:id="s169">— L’Adieu au
+                                                  Soleil.</seg>
+      <seg n="170" xml:id="s170">— Le Sommeil.</seg>
+      <seg n="171" xml:id="s171">— Causerie du
+                                                  Soir.</seg>
+      <seg n="172" xml:id="s172">— Dessin pour l’Harmonie
+                                                  d’Automnè</seg>
+      <seg n="173" xml:id="s173">— Soir</seg>
+      <seg n="174" xml:id="s174">— Nuit</seg>
+      <seg n="175" xml:id="s175">— I. Devant le livre
+                                                  ouvert.</seg>
+      <seg n="176" xml:id="s176">— II. Sidéral et.
+                                                  Cosmogonique.</seg>
+      <seg n="177" xml:id="s177">— III. .. Dormante, elle
+                                                  rêve à d’orageuses mers.</seg>
+      <seg n="178" xml:id="s178">— IV Erracité</seg>
+      <seg n="179" xml:id="s179">V. Au Seuil).</seg>
+      <seg n="180" xml:id="s180">— VI. Sur le.
+                                                  Chemin.</seg>
+      <seg n="181" xml:id="s181">— VII. La Coupe du
+                                                  Martyre.</seg>
+      <seg n="182" xml:id="s182">VIII. Le Christ est
+                                                  ressuscité!</seg>
+      <seg n="183" xml:id="s183">— IX. La
+                                                  Froide.</seg>
+      <seg n="184" xml:id="s184">— Le Rain
+                                                  empoisonné.</seg>
+      <seg n="185" xml:id="s185">— Religieuse.</seg>
+      <seg n="186" xml:id="s186">— Tête de Christ</seg>
+      <seg n="187" xml:id="s187">— Le Rayon de
+                                                  soleil.</seg>
+      <seg n="188" xml:id="s188">Vesper.</seg>
+      <seg n="189" xml:id="s189">— Lion.</seg>
+      <seg n="190" xml:id="s190">— Lionne.</seg>
+      <seg n="191" xml:id="s191">— Gravité</seg>
+      <seg n="192" xml:id="s192">— Ophèlie</seg>
+      <seg n="193" xml:id="s193">— Mystère </seg>
+      <seg n="194" xml:id="s194">— Etude pour un plafond</seg>
+      <seg n="195" xml:id="s195">— Songe </seg>
+      <seg n="196" xml:id="s196">— Sérénité</seg>
+      <seg n="197" xml:id="s197">— Curiosité.</seg>
+      <seg n="198" xml:id="s198">— Etude.</seg>
+      <seg n="199" xml:id="s199">— Etude.</seg>
+      <seg n="200" xml:id="s200"> L'Inspiation</seg>
+      <seg n="201" xml:id="s201">— Mystère</seg>
+      <seg n="202" xml:id="s202">— Le Rêve</seg>
+      <seg n="203" xml:id="s203">— La Pensée</seg>
+      <seg n="204" xml:id="s204">— Le Vent.</seg>
+      <seg n="205" xml:id="s205">— Le Christ.</seg>
+      <seg n="206" xml:id="s206">— La Vision de la
+                                                  Vierge.</seg>
+      <seg n="207" xml:id="s207">— Psyché</seg>
+      <seg n="208" xml:id="s208">— Près du feu</seg>
+      <seg n="209" xml:id="s209">— La Fuite en Egypte
+                                                  </seg>
+      <seg n="210" xml:id="s210">— L’Annonciation aux
+                                                  bergères</seg>
+      <seg n="211" xml:id="s211">— L’Adoration des bergers</seg>
+      <seg n="212" xml:id="s212">—
+                                                  Kypris-Laksmi.</seg>
+      <seg n="213" xml:id="s213">—
+                                                  Mélancolie.</seg>
+      <seg n="214" xml:id="s214">— Rieur</seg>
+      <seg n="215" xml:id="s215">— Florentin</seg>
+      <seg n="216" xml:id="s216">— Condottiere</seg>
+      <seg n="217" xml:id="s217">Moine </seg>
+      <seg n="218" xml:id="s218">— Florentin </seg>
+      <seg n="219" xml:id="s219">— La Vierge.</seg>
+      <seg n="220" xml:id="s220">— Les
+                                                  Ephèbes.</seg>
+      <seg n="221" xml:id="s221">— Les Mères.</seg>
+      <seg n="222" xml:id="s222">— Les Vierges</seg>
+      <seg n="223" xml:id="s223">— Les Veillards</seg>
+      <seg n="224" xml:id="s224">— Fleurs et Fruits</seg>
+      <seg n="225" xml:id="s225">— Figures sur fond or (La Chasse)</seg>
+      <seg n="226" xml:id="s226">— " " " " (La Pèche)</seg>
+      <seg n="227" xml:id="s227">— Muse mystique</seg>
+      <seg n="228" xml:id="s228">— Le Repos</seg>
+      <seg n="229" xml:id="s229">— La Fin des Dieux</seg>
+      <seg n="230" xml:id="s230">— L'Aveu</seg>
+      <seg n="231" xml:id="s231">— Désespoir de la Chimère</seg>
+      <seg n="232" xml:id="s232">— Sin</seg>
+      <seg n="233" xml:id="s233">— Endormie</seg>
+      <seg n="234" xml:id="s234">— La Province</seg>
+      <seg n="235" xml:id="s235">— Baigneuse</seg>
+      <seg n="236" xml:id="s236">— Femme aux pâquerettes</seg>
+      <seg n="237" xml:id="s237">— Paysage</seg>
+      <seg n="238" xml:id="s238">— Carton (Figure de l'Hiver)</seg>
+      <seg n="239" xml:id="s239">— Cartons: Femmes aux Couronnes</seg>
+      <seg n="240" xml:id="s240">— Nu pour "la Mère"</seg>
+      <seg n="241" xml:id="s241">— Nu pour "Jeune Fille"</seg>
+      <seg n="242" xml:id="s242">— Etude "le Blessé"</seg>
+      <seg n="243" xml:id="s243">— " Enfant aux Fruits</seg>
+      <seg n="244" xml:id="s244">— Profil de Blonde</seg>
+      <seg n="245" xml:id="s245">— Fierté</seg>
+      <seg n="246" xml:id="s246">— Sommeil.</seg>
+      <seg n="247" xml:id="s247">— Nu de « Douleur,
+                                                  ».</seg>
+      <seg n="248" xml:id="s248">— Miss aux cheveux
+                                                  dénoués.</seg>
+      <seg n="254" xml:id="s254">— Jeune
+                                                  Femme.</seg>
+      <seg n="255" xml:id="s255">— Le Soir</seg>
+      <seg n="256" xml:id="s256">— L'squisse</seg>
+      <seg n="257" xml:id="s257">— Balzac </seg>
+      <seg n="258" xml:id="s258">— Balzac </seg>
+      <seg n="259" xml:id="s259">— Balzac</seg>
+      <seg n="260" xml:id="s260">— Balzac</seg>
+      <seg n="261" xml:id="s261">— Balzac ; La Comédie
+                                                  humaine</seg>
+      <seg n="262" xml:id="s262">— Super vitia pudor</seg>
+      <seg n="263" xml:id="s263">— Super venustatem spiritus</seg>
+      <seg n="264" xml:id="s264">— Ostensoir des religions</seg>
+      <seg n="265" xml:id="s265">— Evette</seg>
+      <seg n="266" xml:id="s266">— Wagner</seg>
+      <seg n="267" xml:id="s267">— Musset</seg>
+      <seg n="268" xml:id="s268">— J.-J. Rousseau</seg>
+      <seg n="269" xml:id="s269">— Mourir et renaître</seg>
+      <seg n="270" xml:id="s270">— Devant l'église</seg>
+      <seg n="271" xml:id="s271">— Déluge</seg>
+      <seg n="272" xml:id="s272">— Simplicité
+                                                  </seg>
+      <seg n="273" xml:id="s273">— Douleur
+                                                  </seg>
+      <seg n="274" xml:id="s274">— Déluge
+                                                  </seg>
+      <seg n="275" xml:id="s275">— Le poète Paul Verlaine,</seg>
+</p>
+   </body>
+</text>
+</TEI>

@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<?xml-model href="../TEIcatalogs/ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="../TEIcatalogs/ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="../../ODD/out/ODD_VisualContagions.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="CatIndependant_1935">
                             <teiHeader>
                                                   <fileDesc>
@@ -25249,7 +25249,7 @@
                                                   <item n="5553"
                                                   xml:id="CatIndependant_1935_e1588_i5553"
                                                   ><num>5553</num><title>Nature morte.
-                                                  </title><desc>— 500 fr.</desc></item>
+                                                  </title><desc>— 500 fr.</desc></item></entry>
                                                   <entry n="1589" xml:id="CatIndependant_1935_e1589"
                                                   source="223.jpg">
                                                   <desc><name>VAUDOU (Gaston),</name><trait>
@@ -25642,7 +25642,7 @@
                                                   <desc><name>VILLARD (Antoine),</name><trait>
                                                   <p> né à Mâcon le 17 mars 1867, décédé à
                                                   Paris le 4 février 1934. 
-                                                  4, square Desnouettes, 15e.</desc></item>
+                                                  4, square Desnouettes, 15e.</p></trait></desc>
                                                   <item n="3604"
                                                   xml:id="CatIndependant_1935_e1614_i3604"
                                                   ><num>3604</num><title>Nature morte.
@@ -25873,7 +25873,7 @@
                                                   xml:id="CatIndependant_1935_e1627_i3638"
                                                   ><num>3638</num><title> Une vitrine contenant des
                                                                               petites sculptures d’ani¬maux </title><desc>(bronzes à cire
-                                                                                                          perdue, tirages limités). —</desc></desc></item>
+                                                                                                          perdue, tirages limités). —</desc></item>
                                                   <item n="3639"
                                                   xml:id="CatIndependant_1935_e1627_i3639"
                                                   ><num>3639</num><title>Chat (bronze à cire
@@ -26113,7 +26113,7 @@
                                                   </title><desc>— 500 fr.</desc></item>
                                                   </entry>
                                                   <entry n="1644" xml:id="CatIndependant_1935_e1644"
-                                                  source="231.jpg"
+                                                  source="231.jpg">
                                                   <desc><name>WINGERT (Marcel),</name><trait>
                                                   <p> né à Paris. — 9, rue des Saules, 18e.</p>
                                                   </trait></desc>
