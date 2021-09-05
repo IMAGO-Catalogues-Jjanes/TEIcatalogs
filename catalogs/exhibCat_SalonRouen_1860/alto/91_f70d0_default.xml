@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alto xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns="http://www.loc.gov/standards/alto/ns-v4#"
+      xsi:schemaLocation="http://www.loc.gov/standards/alto/ns-v4# http://www.loc.gov/standards/alto/v4/alto-4-2.xsd">
+  <Description>
+    <MeasurementUnit>pixel</MeasurementUnit>
+    <sourceImageInformation>
+      <fileName>91_f70d0_default.jpg</fileName>
+      <fileIdentifier>https://gallica.bnf.fr/iiif/ark:/12148/bpt6k1181800p/f92/full/full/0/default.jpg</fileIdentifier>
+    </sourceImageInformation>
+  </Description>
+  
+  <Tags>
+    <OtherTag ID="BT1058" LABEL="Main" DESCRIPTION="block type Main"/><OtherTag ID="BT1059" LABEL="Title" DESCRIPTION="block type Title"/><OtherTag ID="BT1060" LABEL="Running Title" DESCRIPTION="block type Running Title"/><OtherTag ID="BT1061" LABEL="Entry" DESCRIPTION="block type Entry"/><OtherTag ID="BT1062" LABEL="EntryEnd" DESCRIPTION="block type EntryEnd"/><OtherTag ID="BT1063" LABEL="Figure" DESCRIPTION="block type Figure"/><OtherTag ID="BT1064" LABEL="Stamp" DESCRIPTION="block type Stamp"/><OtherTag ID="BT1069" LABEL="Numbering" DESCRIPTION="block type Numbering"/><OtherTag ID="BT1098" LABEL="Margin" DESCRIPTION="block type Margin"/>
+    <OtherTag ID="LT383" LABEL="Default" DESCRIPTION="line type Default"/>
+  </Tags>
+  
+  <Layout>
+    <Page WIDTH="1833"
+          HEIGHT="3037"
+          PHYSICAL_IMG_NR="67"
+          ID="eSc_dummypage_">
+      <PrintSpace HPOS="0"
+                  VPOS="0"
+                  WIDTH="1833"
+                  HEIGHT="3037">
+        
+        <TextBlock HPOS="371"
+                   VPOS="506"
+                   WIDTH="1171"
+                   HEIGHT="518"
+                   ID="eSc_textblock_8b57e1ca"
+                   TAGREFS="BT1062">
+          <Shape><Polygon POINTS="1508 526 1542 573 1542 976 1488 1024 1367 1003 371 1003 391 512 968 533 1355 506"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_24cf3169"
+                    TAGREFS="LT383"
+                    BASELINE="388 561 1552 574" 
+                    HPOS="384"
+                    VPOS="513"
+                    WIDTH="1167"
+                    HEIGHT="79">
+            <Shape><Polygon POINTS="387 539 387 521 402 516 524 526 536 513 572 513 587 526 622 528 681 518 706 528 815 521 903 531 1055 521 1088 534 1141 518 1319 518 1359 531 1372 521 1501 521 1519 536 1549 536 1551 551 1549 577 1503 592 1400 592 1384 577 1324 592 1291 574 1270 587 1205 574 1187 589 1134 589 1119 574 1093 589 1035 571 989 584 972 574 959 587 815 569 668 582 653 569 592 566 556 582 513 566 493 579 384 579"/></Shape>
+	    <String CONTENT="655. The Corn Field (le Champ de Blé), d’après"
+                    HPOS="384"
+                    VPOS="513"
+                    WIDTH="1167"
+                    HEIGHT="79"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_926cfed9"
+                    TAGREFS="LT383"
+                    BASELINE="578 619 1350 625" 
+                    HPOS="574"
+                    VPOS="571"
+                    WIDTH="775"
+                    HEIGHT="76">
+            <Shape><Polygon POINTS="577 597 587 571 645 571 658 584 701 584 716 571 756 582 779 571 888 571 901 584 977 577 989 587 1022 574 1055 587 1101 587 1113 574 1131 587 1192 587 1205 574 1270 587 1291 574 1301 584 1346 587 1349 602 1346 640 1334 632 1308 647 1240 635 1225 647 1162 647 1149 637 1070 647 1058 635 1040 647 1005 647 987 635 974 645 959 627 944 637 792 627 777 640 724 627 574 630"/></Shape>
+	    <String CONTENT="John Constable, (mine de plomb)."
+                    HPOS="574"
+                    VPOS="571"
+                    WIDTH="775"
+                    HEIGHT="76"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_918d499e"
+                    TAGREFS="LT383"
+                    BASELINE="389 685 1375 692" 
+                    HPOS="384"
+                    VPOS="637"
+                    WIDTH="990"
+                    HEIGHT="71">
+            <Shape><Polygon POINTS="387 663 387 647 412 637 465 637 481 650 519 650 531 637 607 650 620 637 643 637 660 650 719 652 734 642 782 652 802 640 855 652 881 640 906 652 967 652 1000 640 1032 652 1045 640 1078 655 1116 655 1134 642 1167 655 1217 655 1230 642 1248 655 1301 655 1341 642 1372 655 1374 670 1362 708 1301 698 1149 708 1126 698 1058 708 994 706 984 695 868 706 746 695 719 706 693 693 498 693 450 703 384 690"/></Shape>
+	    <String CONTENT="656. Un Groupe d’Arbres (mine de plomb)."
+                    HPOS="384"
+                    VPOS="637"
+                    WIDTH="990"
+                    HEIGHT="71"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_2dc358d9"
+                    TAGREFS="LT383"
+                    BASELINE="393 755 1257 765" 
+                    HPOS="391"
+                    VPOS="710"
+                    WIDTH="866"
+                    HEIGHT="67">
+            <Shape><Polygon POINTS="393 742 393 718 427 710 460 717 474 710 484 720 521 720 536 710 568 722 644 712 681 723 713 723 724 713 788 723 825 713 842 725 874 715 968 715 984 723 994 717 1012 727 1070 720 1113 728 1174 728 1186 718 1216 718 1255 728 1257 752 1252 769 1220 772 1196 765 1176 777 1164 769 1130 776 1110 767 1098 776 1068 776 1059 769 1048 776 1034 764 1014 776 970 776 945 767 918 774 909 765 889 765 881 774 843 767 820 772 801 762 793 769 749 762 727 772 681 772 665 762 644 762 632 771 609 764 600 771 580 762 558 771 528 757 474 757 464 764 455 757 448 764 423 760 401 769 391 759"/></Shape>
+	    <String CONTENT="657. Locking South (Petra), aquarelle."
+                    HPOS="391"
+                    VPOS="710"
+                    WIDTH="866"
+                    HEIGHT="67"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_d143f11e"
+                    TAGREFS="LT383"
+                    BASELINE="433 821 1539 830" 
+                    HPOS="430"
+                    VPOS="771"
+                    WIDTH="1106"
+                    HEIGHT="66">
+            <Shape><Polygon POINTS="432 799 432 776 473 771 496 771 508 784 597 784 620 771 673 784 713 784 726 771 784 782 800 771 878 787 951 774 987 774 1005 787 1022 774 1065 774 1081 787 1169 789 1230 789 1245 776 1281 776 1293 789 1536 782 1534 837 1169 837 1098 827 802 835 782 825 465 832 430 822"/></Shape>
+	    <String CONTENT="Petra, antique capitale des Nabathéens, est située au milieu"
+                    HPOS="430"
+                    VPOS="771"
+                    WIDTH="1106"
+                    HEIGHT="66"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a378f8e0"
+                    TAGREFS="LT383"
+                    BASELINE="391 860 1537 870" 
+                    HPOS="387"
+                    VPOS="819"
+                    WIDTH="1149"
+                    HEIGHT="59">
+            <Shape><Polygon POINTS="389 837 389 819 465 832 564 822 594 832 620 822 648 832 706 825 734 835 756 825 769 835 908 825 987 837 1491 832 1536 847 1534 878 1270 878 1248 868 979 875 962 865 678 873 597 863 405 870 387 860"/></Shape>
+	    <String CONTENT="des déserts de l’Arabie Pétrée. Les ruines, qui existent encore"
+                    HPOS="387"
+                    VPOS="819"
+                    WIDTH="1149"
+                    HEIGHT="59"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a648f738"
+                    TAGREFS="LT383"
+                    BASELINE="393 904 1533 912" 
+                    HPOS="389"
+                    VPOS="865"
+                    WIDTH="1142"
+                    HEIGHT="53">
+            <Shape><Polygon POINTS="392 883 392 870 440 865 734 865 782 875 1508 873 1529 878 1531 890 1529 918 389 911"/></Shape>
+	    <String CONTENT="aujourd’hui sous le nom de Karek ou d’Asché, consistent en"
+                    HPOS="389"
+                    VPOS="865"
+                    WIDTH="1142"
+                    HEIGHT="53"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_4641605d"
+                    TAGREFS="LT383"
+                    BASELINE="386 941 1540 954" 
+                    HPOS="382"
+                    VPOS="903"
+                    WIDTH="1157"
+                    HEIGHT="71">
+            <Shape><Polygon POINTS="384 918 405 908 579 913 615 903 630 916 759 906 774 916 1005 908 1045 918 1070 908 1162 921 1225 911 1281 921 1301 911 1316 923 1362 923 1417 913 1453 923 1539 921 1539 931 1536 964 1425 961 1407 974 1331 971 1316 959 1281 971 1144 971 1119 961 1078 971 1012 954 979 969 868 969 855 956 835 966 800 951 412 956 382 946"/></Shape>
+	    <String CONTENT="d’innombrables tombeaux taillés dans le roc vif, et en d’autres"
+                    HPOS="382"
+                    VPOS="903"
+                    WIDTH="1157"
+                    HEIGHT="71"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_a690b07b"
+                    TAGREFS="LT383"
+                    BASELINE="393 985 816 988" 
+                    HPOS="389"
+                    VPOS="949"
+                    WIDTH="427"
+                    HEIGHT="50">
+            <Shape><Polygon POINTS="392 964 392 951 741 949 812 954 815 966 816 997 389 999"/></Shape>
+	    <String CONTENT="ouvrages d’architecture."
+                    HPOS="389"
+                    VPOS="949"
+                    WIDTH="427"
+                    HEIGHT="50"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="378"
+                   VPOS="1322"
+                   WIDTH="1144"
+                   HEIGHT="437"
+                   ID="eSc_textblock_f8e51c77"
+                   TAGREFS="BT1061">
+          <Shape><Polygon POINTS="1461 1336 1461 1489 1522 1604 1468 1639 1461 1732 1407 1759 1267 1732 1213 1692 1218 1651 1144 1624 1051 1624 1002 1665 781 1666 803 1687 941 1687 941 1759 432 1759 405 1693 438 1646 378 1570 405 1322"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_26387f30"
+                    TAGREFS="LT383"
+                    BASELINE="482 1375 1450 1388" 
+                    HPOS="478"
+                    VPOS="1323"
+                    WIDTH="970"
+                    HEIGHT="84">
+            <Shape><Polygon POINTS="481 1353 481 1323 1225 1323 1255 1336 1392 1336 1407 1326 1415 1336 1445 1336 1448 1366 1445 1407 1382 1407 1367 1397 1319 1397 1308 1407 1253 1389 1235 1402 1205 1389 1149 1389 1116 1404 1040 1402 1022 1389 1010 1399 994 1386 946 1402 888 1391 868 1402 838 1389 703 1399 673 1381 630 1381 615 1397 549 1384 534 1397 513 1381 478 1379"/></Shape>
+	    <String CONTENT="VIGER-DUVIGNEAU (Mme PERRINE),"
+                    HPOS="478"
+                    VPOS="1323"
+                    WIDTH="970"
+                    HEIGHT="84"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_e208f9c3"
+                    TAGREFS="LT383"
+                    BASELINE="697 1444 1219 1452" 
+                    HPOS="693"
+                    VPOS="1394"
+                    WIDTH="524"
+                    HEIGHT="73">
+            <Shape><Polygon POINTS="696 1422 696 1402 810 1404 820 1394 870 1407 1032 1397 1053 1409 1068 1399 1121 1409 1141 1399 1212 1399 1217 1429 1215 1455 1139 1455 1124 1467 1038 1455 1010 1465 974 1455 949 1465 934 1455 903 1465 868 1455 815 1462 789 1450 693 1460"/></Shape>
+	    <String CONTENT="A Paris, rue de l’ouest, 36."
+                    HPOS="693"
+                    VPOS="1394"
+                    WIDTH="524"
+                    HEIGHT="73"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_c9d29ed6"
+                    TAGREFS="LT383"
+                    BASELINE="391 1506 823 1513" 
+                    HPOS="389"
+                    VPOS="1456"
+                    WIDTH="434"
+                    HEIGHT="70">
+            <Shape><Polygon POINTS="391 1493 391 1467 438 1467 459 1456 481 1462 562 1457 587 1469 600 1461 612 1471 654 1471 686 1459 713 1472 757 1472 783 1461 810 1461 823 1471 821 1518 794 1526 720 1526 698 1516 634 1525 607 1515 568 1523 556 1515 535 1520 499 1513 491 1521 445 1513 408 1521 389 1511"/></Shape>
+	    <String CONTENT="658. Nature morte."
+                    HPOS="389"
+                    VPOS="1456"
+                    WIDTH="434"
+                    HEIGHT="70"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_e4edd382"
+                    TAGREFS="LT383"
+                    BASELINE="396 1574 1259 1582" 
+                    HPOS="392"
+                    VPOS="1488"
+                    WIDTH="866"
+                    HEIGHT="119">
+            <Shape><Polygon POINTS="394 1551 394 1528 412 1523 498 1531 551 1513 584 1531 597 1521 663 1521 698 1536 736 1536 805 1521 845 1538 898 1515 926 1488 1116 1490 1172 1533 1215 1515 1258 1531 1255 1607 1220 1607 1200 1594 1169 1607 1154 1596 1134 1607 1043 1607 964 1594 896 1604 881 1591 807 1589 749 1602 683 1589 635 1602 610 1589 556 1599 536 1586 422 1599 392 1584"/></Shape>
+	    <String CONTENT="659. Le Château de Gamey (côte d&#39;Or)."
+                    HPOS="392"
+                    VPOS="1488"
+                    WIDTH="866"
+                    HEIGHT="119"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="351"
+                   VPOS="485"
+                   WIDTH="1205"
+                   HEIGHT="1376"
+                   ID="eSc_textblock_699ce3d0"
+                   TAGREFS="BT1058">
+          <Shape><Polygon POINTS="1475 492 1549 539 1556 983 1529 1052 1535 1199 1515 1208 1535 1618 1495 1660 1502 1726 1448 1854 1382 1861 1333 1813 1267 1827 1301 1801 1200 1773 1184 1692 1071 1705 941 1780 405 1786 378 1759 378 1673 398 1660 364 1591 371 1356 398 1307 378 1192 398 1113 351 997 371 506 968 519 1362 485"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_ac914b8f"
+                    TAGREFS="LT383"
+                    BASELINE="714 1190 1214 1197" 
+                    HPOS="711"
+                    VPOS="1105"
+                    WIDTH="501"
+                    HEIGHT="107">
+            <Shape><Polygon POINTS="713 1169 713 1116 762 1105 784 1105 797 1118 845 1108 865 1118 954 1108 964 1121 1058 1121 1073 1108 1141 1118 1164 1108 1212 1113 1210 1202 1172 1212 1151 1202 964 1212 951 1202 911 1209 855 1199 810 1209 797 1199 739 1209 711 1199"/></Shape>
+	    <String CONTENT="SUPPLÉMENT."
+                    HPOS="711"
+                    VPOS="1105"
+                    WIDTH="501"
+                    HEIGHT="107"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="828"
+                   VPOS="408"
+                   WIDTH="297"
+                   HEIGHT="70"
+                   ID="eSc_textblock_83938741"
+                   TAGREFS="BT1069">
+          <Shape><Polygon POINTS="828 408 828 478 1125 478 1125 408"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_7637b184"
+                    TAGREFS="LT383"
+                    BASELINE="859 451 1090 455" 
+                    HPOS="855"
+                    VPOS="409"
+                    WIDTH="233"
+                    HEIGHT="66">
+            <Shape><Polygon POINTS="858 430 858 420 911 420 924 409 1015 409 1027 422 1086 422 1088 432 1086 458 1055 458 1035 473 1015 463 994 475 855 465"/></Shape>
+	    <String CONTENT="— 86 —"
+                    HPOS="855"
+                    VPOS="409"
+                    WIDTH="233"
+                    HEIGHT="66"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="845"
+                   VPOS="1477"
+                   WIDTH="354"
+                   HEIGHT="369"
+                   ID="eSc_textblock_b79e4247"
+                   TAGREFS="BT1064">
+          <Shape><Polygon POINTS="845 1846 845 1477 1199 1477 1199 1846"/></Shape>
+          
+        </TextBlock>
+        
+        <TextBlock HPOS="383"
+                   VPOS="2423"
+                   WIDTH="1164"
+                   HEIGHT="116"
+                   ID="eSc_textblock_b07cb51f"
+                   TAGREFS="BT1098">
+          <Shape><Polygon POINTS="383 2423 383 2539 1547 2539 1547 2423"/></Shape>
+          
+          
+          <TextLine ID="eSc_line_9fd303ca"
+                    TAGREFS="LT383"
+                    BASELINE="394 2470 1493 2471" 
+                    HPOS="389"
+                    VPOS="2414"
+                    WIDTH="1102"
+                    HEIGHT="91">
+            <Shape><Polygon POINTS="392 2447 392 2419 405 2414 488 2427 536 2414 587 2427 655 2414 739 2427 794 2416 830 2427 957 2416 972 2427 1017 2414 1098 2414 1116 2427 1157 2414 1187 2427 1308 2427 1334 2414 1387 2427 1445 2416 1488 2427 1491 2449 1488 2505 1450 2487 1377 2487 1304 2493 1224 2481 1038 2475 838 2475 825 2487 779 2475 620 2485 607 2475 562 2475 526 2490 506 2475 481 2490 455 2475 430 2487 389 2487"/></Shape>
+	    <String CONTENT="ROUEN, Ve A. Surville, impr. de la Cour impériale et de la Mairie,"
+                    HPOS="389"
+                    VPOS="2414"
+                    WIDTH="1102"
+                    HEIGHT="91"></String>
+          </TextLine>
+
+          
+          
+          <TextLine ID="eSc_line_424ab93f"
+                    TAGREFS="LT383"
+                    BASELINE="686 2510 1214 2508" 
+                    HPOS="681"
+                    VPOS="2475"
+                    WIDTH="529"
+                    HEIGHT="76">
+            <Shape><Polygon POINTS="681 2487 696 2475 1089 2479 1207 2480 1210 2533 1184 2533 1154 2551 934 2551 906 2540 868 2551 822 2528 681 2528"/></Shape>
+	    <String CONTENT="rue des Bons-Enfants, 46-48."
+                    HPOS="681"
+                    VPOS="2475"
+                    WIDTH="529"
+                    HEIGHT="76"></String>
+          </TextLine>
+
+          
+        </TextBlock>
+        
+
+        
+      </PrintSpace>
+    </Page>
+  </Layout>
+</alto>
