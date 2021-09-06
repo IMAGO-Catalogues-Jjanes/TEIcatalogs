@@ -12,6 +12,6 @@ authors:
   orcid: "https://orcid.org/0000-0001-9094-4475"
 title: "TEICatalogs: Corpus of encoded 19th and 20th catalogs"
 version: 1.0
-doi: none
+doi: 10.5281/zenodo.5465279
 date-released: 2021-07-30
 url: "https://github.com/Juliettejns/TEIcatalogs"
